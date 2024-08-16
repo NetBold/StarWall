@@ -1,5 +1,5 @@
 # StarWall
-StarWall; A Wallpaper and Image sharing Website (Backend &amp; Frontend)
+StarWall; A Wallpaper and Image sharing Website (Backend &amp; Frontend) Built and Developed by NetBold Team.
 
 # Application Running Requirements
 - To Run The APP you have to make UI and the API project both As Startup project so you will have two startup pojects.
