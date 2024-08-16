@@ -1,0 +1,109 @@
+﻿@page "/Register"
+@inject AccountAPIService AccountAPIService
+<PageTitle>StarWall - Register</PageTitle>
+<EditForm Model="@registerUserDTO" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container px-4 mt-2">
+        <div class="row py-4 d-flex justify-content-center bg-dark shadow" style="border-radius: 20px;">
+            <h3 style="color: rgb(77, 206, 211); text-align: center;"><b><i class="fa fa-user" aria-hidden="true"></i>
+                    Create
+                    your account</b></h3>
+            <p class="text-center"><a href="" style="text-decoration: none;" class="white-link">Already have an
+                    account?</a></p>
+            @if (message != "")
+            {
+                <StarWall.UI.Components.ShowMassage MessageType="@MessageType.warning" Message="@message" />
+            }
+            <div class="col-md-7">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <img @ref="previewImageElem" src="@defaultImageUrl" class="img-fluid" /><br />
+                    </div>
+                </div>
+                <label class="text-white-50">Profile Image</label>
+                <InputFile @ref="inputFile" type="file" class="form-control mb-3" OnChange="@ProfileImageSelected"
+                    accept="image/png, image/jpg, image/jpeg" />
+                <div class="mb-3">
+                    <InputText @bind-Value="@registerUserDTO.FirstName" class="form-control bg-dark text-white"
+                        placeholder="First Name" style="text-align: center;" />
+                    <ValidationMessage For="@(() => registerUserDTO.FirstName)" class="text-danger mb-3">
+                    </ValidationMessage>
+                </div>
+                <div class="mb-3">
+                    <InputText @bind-Value="@registerUserDTO.LastName" class="form-control bg-dark text-white"
+                        placeholder="Last Name" style="text-align: center;" />
+                    <ValidationMessage For="@(() => registerUserDTO.LastName)" class="text-danger mb-3">
+                    </ValidationMessage>
+                </div>
+                <div class="mb-3">
+                    <InputText @bind-Value="@registerUserDTO.Email" type="email" class="form-control bg-dark text-white"
+                        placeholder="Email" style="text-align: center;" />
+                    <ValidationMessage For="@(() => registerUserDTO.Email)" class="text-danger mb-3">
+                    </ValidationMessage>
+                </div>
+                <div class="mb-3">
+                    <InputText @bind-Value="@registerUserDTO.Username" type="text"
+                        class="form-control bg-dark text-white" placeholder="Username" style="text-align: center;" />
+                    <ValidationMessage For="@(() => registerUserDTO.Username)" class="text-danger mb-3">
+                    </ValidationMessage>
+                </div>
+                <div class="mb-3">
+                    <InputText @bind-Value="@registerUserDTO.Password" type="password"
+                        class="form-control mb-3 bg-dark text-white" placeholder="Password"
+                        style="text-align: center;" />
+                    <ValidationMessage For="@(() => registerUserDTO.Password)" class="text-danger mb-3">
+                    </ValidationMessage>
+                </div>
+                <div class="mb-3">
+                    <InputText @bind-Value="@registerUserDTO.RePassword" type="password"
+                        class="form-control bg-dark text-white" placeholder="Password Confirmation"
+                        style="text-align: center;" />
+                    <ValidationMessage For="@(() => registerUserDTO.RePassword)" class="text-danger mb-3">
+                    </ValidationMessage>
+                </div>
+                <button type="submit" class="btn btn-info form-control"><i class="fa fa-user" aria-hidden="true"></i>
+                    Create Account</button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private InputFile? inputFile;
+    private ElementReference previewImageElem;
+    private RegisterUserDTO registerUserDTO = new();
+    private string defaultImageUrl;
+
+    private string message = "";
+
+    IBrowserFile file;
+
+    HttpClient client;
+
+    protected override async Task OnInitializedAsync()
+    {
+        client = ClientFactory.CreateClient("StarWallApi");
+        defaultImageUrl = $"{client.BaseAddress}UploadedFiles/ProfileImages/DefaultUserProfile.png";
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await AccountAPIService.Register(registerUserDTO, file);
+    }
+
+    private async Task ProfileImageSelected(InputFileChangeEventArgs e)
+    {
+        FileInfo fileInfo = new FileInfo(e.File.Name);
+        bool isValidType = MimeHelper.IsImageFileTypeValid(fileInfo);
+        if (isValidType)
+        {
+            file = e.File;
+
+            await JsRuntime.InvokeVoidAsync("previewImage", inputFile!.Element, previewImageElem);
+        }
+        else
+        {
+            await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.error.ToString(), "Invalid file type");
+        }
+    }
+}

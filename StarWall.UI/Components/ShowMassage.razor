@@ -1,0 +1,33 @@
+﻿<div class="text-center alert @className">
+    <p>@Message</p>
+</div>
+
+@code {
+    [Parameter]
+    public string Message { get; set; }
+
+    [Parameter]
+    public MessageType MessageType { get; set; }
+
+    private string className = "";
+
+    protected override void OnInitialized()
+    {
+        switch (MessageType)
+        {
+            case MessageType.success:
+                className = "alert-success";
+                break;
+            case MessageType.info:
+                className = "alert-info";
+                break;
+            case MessageType.warning:
+                className = "alert-warning";
+                break;
+            case MessageType.error:
+                className = "alert-danger";
+                break;
+        }
+
+    }
+}

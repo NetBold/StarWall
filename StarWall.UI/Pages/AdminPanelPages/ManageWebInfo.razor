@@ -1,0 +1,112 @@
+﻿@page "/AdminPanel/ManageWebInfo"
+@inject AdminAPIService AdminAPIService
+@layout AdminPanelLayout
+<PageTitle>StarWall - AdminPanel</PageTitle>
+<EditForm Model="webSiteInfoDTO" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator/>
+    <div class="container-fluid px-3 py-2">
+        <div class="row bg-dark rounded">
+            <h5 style="color: rgb(77, 206, 211);" class="mt-2"><i class="fa fa-info"></i> Website Information</h5>
+            <div class="col-md-6 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">WebSite Title</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.Title"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.Title)"/>
+                </div>
+            </div>
+            <div class="col-md-6 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Short Description</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.ShortDescription"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.ShortDescription)"/>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Instagram Id</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.Instagram"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.Instagram)"/>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Telegram Id</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.Telegram"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.Telegram)"/>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Twitter Id</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.Twitter"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.Twitter)"/>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Email</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.Email"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.Email)"/>
+                </div>
+            </div>
+            <div class="col-md-2 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Powered By</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.PoweredBy"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.PoweredBy)"/>
+                </div>
+            </div>
+            <div class="col-md-3 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Phone Number 1</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.PhoneNumber1"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.PhoneNumber1)"/>
+                </div>
+            </div>
+            <div class="col-md-3 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Phone Number 2</label>
+                    <InputText type="text" class="form-control" @bind-Value="@webSiteInfoDTO.PhoneNumber2"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.PhoneNumber2)"/>
+                </div>
+            </div>
+            <div class="col-md-12 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Address</label>
+                    <InputTextArea rows="5" type="text" class="form-control" @bind-Value="@webSiteInfoDTO.Address"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.Address)"/>
+                </div>
+            </div>
+            <div class="col-md-12 p-1">
+                <div class="form-group">
+                    <label class="text-white-50">Long Description</label>
+                    <InputTextArea rows="10" type="text" class="form-control" @bind-Value="@webSiteInfoDTO.LongDescription"/>
+                    <ValidationMessage class="text-danger" For="@(() => webSiteInfoDTO.LongDescription)"/>
+                </div>
+            </div>
+            <div class="col-12 p-1">
+                <button type="submit" class="btn btn-success form-control"><i class="fa fa-save"></i> Save</button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private UpdateWebSiteInfoDTO webSiteInfoDTO = new();
+    private string token = "";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        token = await AuthStateHandler.CheckAuthorizationAdminOrUploader();
+        if (firstRender)
+        {
+            webSiteInfoDTO = await AdminAPIService.GetWebInfoForEdit();
+            StateHasChanged();
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await AdminAPIService.UpdateWebInfo(webSiteInfoDTO);
+    }
+}

@@ -1,0 +1,28 @@
+﻿@inherits LayoutComponentBase
+@inject HomeAPIService HomeAPIService
+
+<PageTitle>StarWall</PageTitle>
+<div class="page">
+    <NavMenu />
+    <ContactInfoMenu infoDTO="@infoDTO"/>
+    @Body
+    <Footer infoDTO="@infoDTO"/>
+</div>
+
+@code{
+    HttpClient client;
+    private WebSiteInfoDTO infoDTO = new();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            infoDTO = await HomeAPIService.GetWebSiteInfo();
+            StateHasChanged();
+        }
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        
+    }
+}

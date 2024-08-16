@@ -1,0 +1,306 @@
+2023-03-26 18:17:18.370 +04:30 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-26 18:17:18.433 +04:30 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-26 18:17:18.465 +04:30 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-26 18:17:18.551 +04:30 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-03-26 18:17:18.591 +04:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-26 18:17:18.625 +04:30 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-26 18:17:18.688 +04:30 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-26 18:17:18.696 +04:30 [INF] Applying migration '20230306152451_dsdsdcvxzcfdsdf'.
+2023-03-26 18:17:18.838 +04:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contacts] (
+    [Id] bigint NOT NULL IDENTITY,
+    [FullName] nvarchar(110) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Body] nvarchar(max) NOT NULL,
+    [CreationDate] datetime2 NOT NULL,
+    [IsSeenByAdmin] bit NOT NULL,
+    CONSTRAINT [PK_Contacts] PRIMARY KEY ([Id])
+);
+2023-03-26 18:17:18.876 +04:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Roles] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Roles] PRIMARY KEY ([Id])
+);
+2023-03-26 18:17:18.914 +04:30 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [WallpaperDeviceCategories] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_WallpaperDeviceCategories] PRIMARY KEY ([Id])
+);
+2023-03-26 18:17:18.957 +04:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [WallpaperGenreCategories] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Title] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_WallpaperGenreCategories] PRIMARY KEY ([Id])
+);
+2023-03-26 18:17:19.012 +04:30 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [WebSiteInfos] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(70) NOT NULL,
+    [PhoneNumber1] nvarchar(11) NOT NULL,
+    [PhoneNumber2] nvarchar(11) NOT NULL,
+    [ShortDescription] nvarchar(max) NOT NULL,
+    [LongDescription] nvarchar(max) NOT NULL,
+    [Address] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [PoweredBy] nvarchar(max) NOT NULL,
+    [Telegram] nvarchar(max) NULL,
+    [Instagram] nvarchar(max) NULL,
+    [Twitter] nvarchar(max) NULL,
+    CONSTRAINT [PK_WebSiteInfos] PRIMARY KEY ([Id])
+);
+2023-03-26 18:17:19.079 +04:30 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Username] nvarchar(30) NOT NULL,
+    [FirstName] nvarchar(50) NOT NULL,
+    [LastName] nvarchar(50) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [HashedPassword] nvarchar(max) NOT NULL,
+    [ProfileImage] nvarchar(max) NOT NULL,
+    [RegisterDate] datetime2 NOT NULL,
+    [ActiveToken] nvarchar(max) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [RoleId] int NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Roles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([Id]) ON DELETE CASCADE
+);
+2023-03-26 18:17:19.134 +04:30 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Blogs] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Title] nvarchar(120) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Body] nvarchar(max) NOT NULL,
+    [CreationDateTime] datetime2 NOT NULL,
+    [LastEditedDateTime] datetime2 NOT NULL,
+    [ViewsCount] bigint NOT NULL,
+    [WriterId] bigint NULL,
+    [EditorId] bigint NULL,
+    CONSTRAINT [PK_Blogs] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Blogs_Users_EditorId] FOREIGN KEY ([EditorId]) REFERENCES [Users] ([Id]),
+    CONSTRAINT [FK_Blogs_Users_WriterId] FOREIGN KEY ([WriterId]) REFERENCES [Users] ([Id])
+);
+2023-03-26 18:17:19.200 +04:30 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Wallpapers] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Title] nvarchar(120) NOT NULL,
+    [DownloadsCount] bigint NOT NULL,
+    [ViewsCount] bigint NOT NULL,
+    [Source] nvarchar(max) NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [UploaderId] bigint NOT NULL,
+    [WallpaperGenreCategoryId] bigint NOT NULL,
+    [PublishDate] datetime2 NOT NULL,
+    [UserId] bigint NULL,
+    CONSTRAINT [PK_Wallpapers] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Wallpapers_Users_UploaderId] FOREIGN KEY ([UploaderId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Wallpapers_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]),
+    CONSTRAINT [FK_Wallpapers_WallpaperGenreCategories_WallpaperGenreCategoryId] FOREIGN KEY ([WallpaperGenreCategoryId]) REFERENCES [WallpaperGenreCategories] ([Id]) ON DELETE CASCADE
+);
+2023-03-26 18:17:19.248 +04:30 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Likes] (
+    [Id] bigint NOT NULL IDENTITY,
+    [LikerId] bigint NULL,
+    [WallpaperId] bigint NULL,
+    CONSTRAINT [PK_Likes] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Likes_Users_LikerId] FOREIGN KEY ([LikerId]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_Likes_Wallpapers_WallpaperId] FOREIGN KEY ([WallpaperId]) REFERENCES [Wallpapers] ([Id]) ON DELETE CASCADE
+);
+2023-03-26 18:17:19.303 +04:30 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [WallpaperImages] (
+    [Id] bigint NOT NULL IDENTITY,
+    [FileName] nvarchar(max) NOT NULL,
+    [WallpaperDeviceCategoryId] int NOT NULL,
+    [WallpaperId] bigint NOT NULL,
+    CONSTRAINT [PK_WallpaperImages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_WallpaperImages_WallpaperDeviceCategories_WallpaperDeviceCategoryId] FOREIGN KEY ([WallpaperDeviceCategoryId]) REFERENCES [WallpaperDeviceCategories] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_WallpaperImages_Wallpapers_WallpaperId] FOREIGN KEY ([WallpaperId]) REFERENCES [Wallpapers] ([Id]) ON DELETE CASCADE
+);
+2023-03-26 18:17:19.425 +04:30 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[Roles]'))
+    SET IDENTITY_INSERT [Roles] ON;
+INSERT INTO [Roles] ([Id], [Title])
+VALUES (1, N'Uploader'),
+(2, N'NormalUser'),
+(3, N'Admin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[Roles]'))
+    SET IDENTITY_INSERT [Roles] OFF;
+2023-03-26 18:17:19.486 +04:30 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[WallpaperDeviceCategories]'))
+    SET IDENTITY_INSERT [WallpaperDeviceCategories] ON;
+INSERT INTO [WallpaperDeviceCategories] ([Id], [Title])
+VALUES (1, N'Mobile'),
+(2, N'Desktop');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[WallpaperDeviceCategories]'))
+    SET IDENTITY_INSERT [WallpaperDeviceCategories] OFF;
+2023-03-26 18:17:19.549 +04:30 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[WallpaperGenreCategories]'))
+    SET IDENTITY_INSERT [WallpaperGenreCategories] ON;
+INSERT INTO [WallpaperGenreCategories] ([Id], [Title])
+VALUES (CAST(1 AS bigint), N'Movie'),
+(CAST(2 AS bigint), N'Nature');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[WallpaperGenreCategories]'))
+    SET IDENTITY_INSERT [WallpaperGenreCategories] OFF;
+2023-03-26 18:17:19.644 +04:30 [INF] Executed DbCommand (95ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ActiveToken', N'Email', N'FirstName', N'HashedPassword', N'IsActive', N'LastName', N'ProfileImage', N'RegisterDate', N'RoleId', N'Username') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([Id], [ActiveToken], [Email], [FirstName], [HashedPassword], [IsActive], [LastName], [ProfileImage], [RegisterDate], [RoleId], [Username])
+VALUES (CAST(1 AS bigint), N'NullToken', N'zolfisahand1386@gmail.com', N'Sahand', N'08-B7-DC-6E-8B-36-BC-AA-C1-58-47-82-7B-79-51-A9', CAST(1 AS bit), N'Zolfi', N'Default', '2023-03-06T18:54:51.8430585+03:30', 1, N'Sahand');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ActiveToken', N'Email', N'FirstName', N'HashedPassword', N'IsActive', N'LastName', N'ProfileImage', N'RegisterDate', N'RoleId', N'Username') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-03-26 18:17:19.681 +04:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Blogs_EditorId] ON [Blogs] ([EditorId]);
+2023-03-26 18:17:19.714 +04:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Blogs_WriterId] ON [Blogs] ([WriterId]);
+2023-03-26 18:17:19.748 +04:30 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Likes_LikerId] ON [Likes] ([LikerId]);
+2023-03-26 18:17:19.806 +04:30 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Likes_WallpaperId] ON [Likes] ([WallpaperId]);
+2023-03-26 18:17:19.841 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Users_RoleId] ON [Users] ([RoleId]);
+2023-03-26 18:17:19.877 +04:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_WallpaperImages_WallpaperDeviceCategoryId] ON [WallpaperImages] ([WallpaperDeviceCategoryId]);
+2023-03-26 18:17:19.911 +04:30 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_WallpaperImages_WallpaperId] ON [WallpaperImages] ([WallpaperId]);
+2023-03-26 18:17:19.946 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Wallpapers_UploaderId] ON [Wallpapers] ([UploaderId]);
+2023-03-26 18:17:19.986 +04:30 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Wallpapers_UserId] ON [Wallpapers] ([UserId]);
+2023-03-26 18:17:20.021 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Wallpapers_WallpaperGenreCategoryId] ON [Wallpapers] ([WallpaperGenreCategoryId]);
+2023-03-26 18:17:20.057 +04:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230306152451_dsdsdcvxzcfdsdf', N'7.0.1');
+2023-03-26 18:17:20.097 +04:30 [INF] Applying migration '20230306153325_dsdsdcvxzcfdsdfdf'.
+2023-03-26 18:17:20.226 +04:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [HashedPassword] = N'19-A5-14-18-9B-61-5A-F5-CE-2F-60-C1-F4-97-46-6C', [RegisterDate] = '2023-03-06T19:03:25.3096742+03:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:20.261 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230306153325_dsdsdcvxzcfdsdfdf', N'7.0.1');
+2023-03-26 18:17:20.296 +04:30 [INF] Applying migration '20230315190955_zsdfsdg'.
+2023-03-26 18:17:20.389 +04:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-15T22:39:55.3600902+03:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:20.424 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230315190955_zsdfsdg', N'7.0.1');
+2023-03-26 18:17:20.459 +04:30 [INF] Applying migration '20230315191827_fasdfasdfwrg4'.
+2023-03-26 18:17:20.548 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-15T22:48:26.9970849+03:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:20.713 +04:30 [INF] Executed DbCommand (165ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'Email', N'Instagram', N'LongDescription', N'PhoneNumber1', N'PhoneNumber2', N'PoweredBy', N'ShortDescription', N'Telegram', N'Title', N'Twitter') AND [object_id] = OBJECT_ID(N'[WebSiteInfos]'))
+    SET IDENTITY_INSERT [WebSiteInfos] ON;
+INSERT INTO [WebSiteInfos] ([Id], [Address], [Email], [Instagram], [LongDescription], [PhoneNumber1], [PhoneNumber2], [PoweredBy], [ShortDescription], [Telegram], [Title], [Twitter])
+VALUES (1, N'Iran - Tabriz - Valiasr Street', N'starsite.iran@gmail.com', N'StarWall_inst', N'Download amazing wallpapers from starwall and set it as your backgroun image on your devices.', N'09031813679', N'09031813679', N'NetBold', N'Wallpapers like Stars', N'StarWall_Tel', N'StarWall', N'StarWall_Twi');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Address', N'Email', N'Instagram', N'LongDescription', N'PhoneNumber1', N'PhoneNumber2', N'PoweredBy', N'ShortDescription', N'Telegram', N'Title', N'Twitter') AND [object_id] = OBJECT_ID(N'[WebSiteInfos]'))
+    SET IDENTITY_INSERT [WebSiteInfos] OFF;
+2023-03-26 18:17:20.749 +04:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230315191827_fasdfasdfwrg4', N'7.0.1');
+2023-03-26 18:17:20.784 +04:30 [INF] Applying migration '20230319095645_ewwefazcxvc'.
+2023-03-26 18:17:20.868 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-19T13:26:44.9263161+03:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:20.946 +04:30 [INF] Executed DbCommand (77ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[WallpaperGenreCategories]'))
+    SET IDENTITY_INSERT [WallpaperGenreCategories] ON;
+INSERT INTO [WallpaperGenreCategories] ([Id], [Title])
+VALUES (CAST(3 AS bigint), N'Games'),
+(CAST(4 AS bigint), N'Anime'),
+(CAST(5 AS bigint), N'Minimalist');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Title') AND [object_id] = OBJECT_ID(N'[WallpaperGenreCategories]'))
+    SET IDENTITY_INSERT [WallpaperGenreCategories] OFF;
+2023-03-26 18:17:20.981 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230319095645_ewwefazcxvc', N'7.0.1');
+2023-03-26 18:17:21.029 +04:30 [INF] Applying migration '20230319100751_ewwefazcxvcwe'.
+2023-03-26 18:17:21.113 +04:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [ProfileImage] = N'Default.png', [RegisterDate] = '2023-03-19T13:37:51.8264608+03:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:21.148 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230319100751_ewwefazcxvcwe', N'7.0.1');
+2023-03-26 18:17:21.202 +04:30 [INF] Applying migration '20230319101850_ewwefazcxvcweer'.
+2023-03-26 18:17:21.289 +04:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [FirstName] = N'Main', [LastName] = N'Main', [RegisterDate] = '2023-03-19T13:48:50.2528378+03:30', [Username] = N'MainUploader'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:21.383 +04:30 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ActiveToken', N'Email', N'FirstName', N'HashedPassword', N'IsActive', N'LastName', N'ProfileImage', N'RegisterDate', N'RoleId', N'Username') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] ON;
+INSERT INTO [Users] ([Id], [ActiveToken], [Email], [FirstName], [HashedPassword], [IsActive], [LastName], [ProfileImage], [RegisterDate], [RoleId], [Username])
+VALUES (CAST(2 AS bigint), N'NullToken', N'zolfisahand1386@gmail.com', N'Main', N'19-A5-14-18-9B-61-5A-F5-CE-2F-60-C1-F4-97-46-6C', CAST(1 AS bit), N'Main', N'Default.png', '2023-03-19T13:48:50.2528430+03:30', 3, N'MainAdmin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ActiveToken', N'Email', N'FirstName', N'HashedPassword', N'IsActive', N'LastName', N'ProfileImage', N'RegisterDate', N'RoleId', N'Username') AND [object_id] = OBJECT_ID(N'[Users]'))
+    SET IDENTITY_INSERT [Users] OFF;
+2023-03-26 18:17:21.453 +04:30 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230319101850_ewwefazcxvcweer', N'7.0.1');
+2023-03-26 18:17:21.497 +04:30 [INF] Applying migration '20230323224037_adfasdf'.
+2023-03-26 18:17:21.581 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-24T03:10:37.6215436+04:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:21.616 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-24T03:10:37.6215493+04:30'
+WHERE [Id] = CAST(2 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:21.651 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230323224037_adfasdf', N'7.0.1');
+2023-03-26 18:17:21.686 +04:30 [INF] Applying migration '20230326134618_dasgdfgdffdvbcvb'.
+2023-03-26 18:17:21.776 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-26T18:16:18.0049505+04:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:21.811 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-26T18:16:18.0050158+04:30'
+WHERE [Id] = CAST(2 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:17:21.845 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230326134618_dasgdfgdffdvbcvb', N'7.0.1');
+2023-03-26 18:22:02.521 +04:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-26 18:22:02.584 +04:30 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-26 18:22:02.621 +04:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-03-26 18:22:02.657 +04:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-03-26 18:22:02.704 +04:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-03-26 18:22:02.712 +04:30 [INF] Applying migration '20230326135153_dasgdfgdffdvbcvbnj'.
+2023-03-26 18:22:02.833 +04:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-26T18:21:53.3365506+04:30'
+WHERE [Id] = CAST(1 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:22:02.872 +04:30 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Users] SET [RegisterDate] = '2023-03-26T18:21:53.3365560+04:30'
+WHERE [Id] = CAST(2 AS bigint);
+SELECT @@ROWCOUNT;
+2023-03-26 18:22:02.910 +04:30 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230326135153_dasgdfgdffdvbcvbnj', N'7.0.1');

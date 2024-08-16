@@ -1,0 +1,1153 @@
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/appsettings.Development.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/appsettings.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.deps.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.runtimeconfig.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ref/StarWall.API.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Drawing.Common.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Runtime.Caching.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Security.Permissions.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Windows.Extensions.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Domain.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Persistence.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Persistence.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Domain.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.AssemblyReference.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.GeneratedMSBuildEditorConfig.editorconfig
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.AssemblyInfoInputs.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.AssemblyInfo.cs
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.CoreCompileInputs.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.MvcApplicationPartsAssemblyInfo.cs
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.MvcApplicationPartsAssemblyInfo.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/staticwebassets.build.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/staticwebassets.development.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/scopedcss/bundle/StarWall.API.styles.css
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.CopyComplete
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/ref/StarWall.API.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.genruntimeconfig.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Humanizer.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/MessagePack.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/MessagePack.Annotations.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Build.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Build.Framework.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.NET.StringTools.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Common.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Configuration.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Frameworks.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.LibraryModel.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Packaging.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.ProjectModel.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Protocol.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Versioning.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Convention.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Hosting.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Runtime.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.TypedParts.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/JetBrains.Annotations.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/X.PagedList.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/X.PagedList.Mvc.Core.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Core.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Core.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/AutoMapper.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/appsettings.Development.json
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/appsettings.json
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.exe
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.deps.json
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.runtimeconfig.json
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.pdb
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/AutoMapper.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Humanizer.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/JetBrains.Annotations.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/MessagePack.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/MessagePack.Annotations.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Build.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Build.Framework.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.NET.StringTools.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Common.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Configuration.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Frameworks.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.LibraryModel.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Packaging.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.ProjectModel.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Protocol.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Versioning.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.AspNetCore.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.File.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Convention.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Hosting.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Runtime.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.TypedParts.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Drawing.Common.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Runtime.Caching.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Security.Permissions.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/System.Windows.Extensions.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/X.PagedList.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/X.PagedList.Mvc.Core.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Core.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Domain.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Persistence.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Core.pdb
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Persistence.pdb
+//VBOXSVR/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Domain.pdb
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.AssemblyReference.cache
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.GeneratedMSBuildEditorConfig.editorconfig
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.AssemblyInfoInputs.cache
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.AssemblyInfo.cs
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.CoreCompileInputs.cache
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.MvcApplicationPartsAssemblyInfo.cs
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.MvcApplicationPartsAssemblyInfo.cache
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/staticwebassets.build.json
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/staticwebassets.development.json
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/scopedcss/bundle/StarWall.API.styles.css
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.CopyComplete
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/refint/StarWall.API.dll
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.pdb
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.genruntimeconfig.cache
+//VBOXSVR/StarWall/StarWall/StarWall.API/obj/Debug/net6.0/ref/StarWall.API.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/appsettings.json
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.exe
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.deps.json
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.runtimeconfig.json
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.API.pdb
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/AutoMapper.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Humanizer.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/JetBrains.Annotations.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/MessagePack.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/MessagePack.Annotations.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Build.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Build.Framework.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.NET.StringTools.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Common.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Configuration.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Frameworks.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.LibraryModel.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Packaging.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.ProjectModel.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Protocol.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/NuGet.Versioning.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.AspNetCore.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Serilog.Sinks.File.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Convention.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Hosting.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.Runtime.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Composition.TypedParts.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Runtime.Caching.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/X.PagedList.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/X.PagedList.Mvc.Core.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Core.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Domain.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Persistence.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Core.pdb
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Persistence.pdb
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/StarWall.Domain.pdb
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.AssemblyReference.cache
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.AssemblyInfoInputs.cache
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.AssemblyInfo.cs
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.CoreCompileInputs.cache
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/scopedcss/bundle/StarWall.API.styles.css
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.csproj.CopyComplete
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/refint/StarWall.API.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.pdb
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/StarWall.API.genruntimeconfig.cache
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/obj/Debug/net6.0/ref/StarWall.API.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:/Users/Morgan/Desktop/StarWall/StarWall.API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\appsettings.Development.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\appsettings.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.API.exe
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.API.deps.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.API.runtimeconfig.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.API.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.API.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\AutoMapper.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Humanizer.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\MessagePack.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Build.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.Common.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\X.PagedList.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.Core.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.Persistence.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.Core.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.Persistence.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\bin\Debug\net6.0\StarWall.Domain.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.csproj.AssemblyReference.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.AssemblyInfoInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.AssemblyInfo.cs
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.csproj.CoreCompileInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.MvcApplicationPartsAssemblyInfo.cs
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.MvcApplicationPartsAssemblyInfo.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\staticwebassets\msbuild.StarWall.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\staticwebassets\msbuild.build.StarWall.API.props
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.StarWall.API.props
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.StarWall.API.props
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\scopedcss\bundle\StarWall.API.styles.css
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.csproj.CopyComplete
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\refint\StarWall.API.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\StarWall.API.genruntimeconfig.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\obj\Debug\net6.0\ref\StarWall.API.dll

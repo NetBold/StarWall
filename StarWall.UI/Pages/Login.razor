@@ -1,0 +1,65 @@
+﻿@page "/login"
+@inject AccountAPIService AccountAPIService
+<PageTitle>StarWall - Login</PageTitle>
+<EditForm Model="@loginUserDTO" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container p-4 mt-2">
+        <div class="row py-4 d-flex justify-content-center bg-dark shadow" style="border-radius: 20px;">
+            <h3 style="color: rgb(77, 206, 211); text-align: center;"><b><i class="fa fa-user" aria-hidden="true"></i>
+                    Login to your account</b></h3>
+            <p class="text-center">
+                <NavLink href="/Register" style="text-decoration: none;" class="white-link">Have not created
+                    yet?!</NavLink>
+            </p>
+            @if (message != "")
+            {
+                <StarWall.UI.Components.ShowMassage MessageType="@MessageType.warning" Message="@message" />
+            }
+            <div class="col-md-7 ">
+                <div class="mb-2">
+                    <InputText @bind-Value="loginUserDTO.Username" class="form-control bg-dark text-white"
+                        placeholder="Username" style="text-align: center;" />
+                    <ValidationMessage For="@(() => loginUserDTO.Username)" class="text-danger"></ValidationMessage>
+                </div>
+                <div class="mb-2">
+                    <InputText @bind-Value="loginUserDTO.Password" type="password"
+                        class="form-control bg-dark text-white" placeholder="Password" style="text-align: center;" />
+                    <ValidationMessage For="@(() => loginUserDTO.Password)" class="text-danger"></ValidationMessage>
+                </div>
+                <button type="submit" class="btn btn-info form-control"><i class="fa fa-user" aria-hidden="true"></i>
+                    Login</button>
+                <p>
+                    <a style="text-decoration: none;" class="white-link" href="ForgotPassword">forgot my password</a>
+                    <br />
+                    <a style="text-decoration: none; cursor:pointer;" class="white-link"
+                        @onclick="@HandeActivateAccountClick">activate my account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+<Advertisement />
+
+@code {
+    private LoginUserDTO loginUserDTO = new();
+    private string message = "";
+
+    private async Task HandleValidSubmit()
+    {
+        var isLoginSuccess = await AccountAPIService.Login(loginUserDTO);
+    }
+
+    private async Task HandeActivateAccountClick()
+    {
+        var client = ClientFactory.CreateClient("StarWallApi");
+        if (string.IsNullOrEmpty(loginUserDTO.Username) || string.IsNullOrEmpty(loginUserDTO.Password))
+        {
+            await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.error.ToString(), "Enter the username and password to send an activation code!");
+        }
+        else
+        {
+            await AccountAPIService.RequestActivateAccount(loginUserDTO);
+        }
+    }
+}

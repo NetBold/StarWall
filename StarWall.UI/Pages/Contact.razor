@@ -1,0 +1,40 @@
+﻿@page "/Contact"
+@using Newtonsoft.Json;
+@using System.Net.Http.Headers;
+@inject HomeAPIService HomeAPIService
+
+
+<PageTitle>StarWall - Contact</PageTitle>
+
+<EditForm Model="@ContactDTO" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator/>
+    <div class="container mt-3">
+        <div class="row">
+            <h5 class="text-center" style="color: rgb(77, 206, 211);"><i class="fa fa-send"></i> Send your Message!</h5>
+            <div class="col-md-6 p-2">
+                <InputText @bind-Value="ContactDTO.Email" type="email" class="form-control bg bg-dark text-white" placeholder="Email Address" />
+                <ValidationMessage For="@(() => ContactDTO.Email)" class="text-danger" ></ValidationMessage>
+            </div>
+            <div class="col-md-6 p-2">
+                <InputText @bind-Value="ContactDTO.FullName" class="form-control bg bg-dark text-white" placeholder="Full Name" />
+                <ValidationMessage For="@(() => ContactDTO.FullName)" class="text-danger" ></ValidationMessage>
+            </div>
+            <div class="col-md-12 p-2">
+                <CKEditorBlazor style="height:500px;" @bind-Value="ContactDTO.Body" class="form-control bg bg-dark text-white" placeholder="Type Your Message ..."/>
+                <ValidationMessage For="@(() => ContactDTO.Body)" class="text-danger" ></ValidationMessage>
+            </div>
+            <div class="col-md-12 p-2">
+                <button class="pinkButton"><i class="fa fa-send"></i> Send</button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private ContactDTO ContactDTO = new();
+
+    private async Task HandleValidSubmit()
+    {
+        await HomeAPIService.SendContactMessage(ContactDTO);
+    }
+}

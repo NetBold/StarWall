@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StarWall.UI
+build_property.RootNamespace = StarWall.UI
+build_property.ProjectDir = D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Components/DeleteConfirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWxldGVDb25maXJtYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Components/ShowMassage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaG93TWFzc2FnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Components/WallpaperItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXYWxscGFwZXJJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AccountActivation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudEFjdGl2YXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/CreateGenre.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXENyZWF0ZUdlbnJlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/CreateWallpaper.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXENyZWF0ZVdhbGxwYXBlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/EditGenre.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXEVkaXRHZW5yZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/EditWallpaper.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXEVkaXRXYWxscGFwZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/ManageContactMessages.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXE1hbmFnZUNvbnRhY3RNZXNzYWdlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/ManageGenres.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXE1hbmFnZUdlbnJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/ManageWallpapers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXE1hbmFnZVdhbGxwYXBlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/ManageWebInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXE1hbmFnZVdlYkluZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/AdminPanelPages/ViewContactMessage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYW5lbFBhZ2VzXFZpZXdDb250YWN0TWVzc2FnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/ForgotPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yZ290UGFzc3dvcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/ResetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXRQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/UserPanelPages/ChangePassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhbmVsUGFnZXNcQ2hhbmdlUGFzc3dvcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/UserPanelPages/EditProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhbmVsUGFnZXNcRWRpdFByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/UserPanelPages/UserPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhbmVsUGFnZXNcVXNlclBhbmVsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/ViewWallpaper.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1dhbGxwYXBlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/AdminPanelLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkbWluUGFuZWxMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/AdminPanelNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkbWluUGFuZWxOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/Advertisement.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkdmVydGlzZW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/CKEditorBlazor.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENLRWRpdG9yQmxhem9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/ContactInfoMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbnRhY3RJbmZvTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyFiles/C\#/Projects/StarWall/StarWall/StarWall.UI/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

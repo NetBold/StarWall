@@ -1,0 +1,33 @@
+﻿@if (!Is4Column)
+{
+    <div class="@(Is4Column ? "col-lg-3 col-md-6 col-12 p-2" : "col-md-3 col-6 p-1")">
+        <a href="/ViewWallpaper/@Wallpaper.Id" class="content_img">
+                    <img src="@GetWallpaperPath(Wallpaper.WallpaperImages.SingleOrDefault( x=>x.WallpaperDeviceCategoryId == 2 ).FileName)" class="wallpaperImage" />
+            <div>@Wallpaper.Title
+            </div>
+        </a>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public ViewWallpaperDTO Wallpaper { get; set; } = new();
+
+    [Parameter]
+    public bool Is4Column { get; set; } = false;
+
+    private string baseWallpaperImagePath = "";
+
+    HttpClient client;
+    protected override async Task OnInitializedAsync()
+    {
+        client = ClientFactory.CreateClient("StarWallApi");
+        baseWallpaperImagePath = $"{client.BaseAddress}UploadedFiles/WallpaperImages/";
+    }
+
+    private string GetWallpaperPath(string fileName)
+    {
+        string path = baseWallpaperImagePath + fileName;
+        return path;
+    }
+}

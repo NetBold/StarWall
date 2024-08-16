@@ -1,0 +1,43 @@
+﻿<div class="container-fluid bg-dark mt-4 border-top">
+    <div class="row">
+      <div class="col-md-4 text-center p-2">
+        <h5 class="NavbarTitle mt-2"><img src="Images/logos/starwall_logo.png" style="width: 20px;height: 20px;"/>
+          StarWall</h5>
+        <hr class="Grayhr" />
+        <p style="color: rgb(189, 189, 189);font-size: small;">
+          Wallpapers like stars
+          <br><br>
+             @infoDTO.Email
+             <br /><br />
+             @infoDTO.LongDescription
+        </p>
+      </div>
+      <div class="col-md-4 text-center p-2">
+        <h5 class="NavbarTitle mt-2"><i class="fa fa-phone"></i> Contact</h5>
+        <hr class="Grayhr" />
+        <p style="color: rgb(189, 189, 189);font-size: small;">
+          <i class="fa fas fa-address-card"></i> Address<br>@infoDTO.Address
+          <br><br>
+          <i class="fa fa-envelope"></i> Email<br>@infoDTO.Email
+          <br><br>
+          <i class="fa fa-phone"></i> Phone Num1<br>@infoDTO.PhoneNumber1
+          <br><br>
+          <i class="fa fa-phone"></i> Phone Num2<br>@infoDTO.PhoneNumber2
+        </p>
+      </div>
+      <div class="col-md-4 text-center p-2">
+        <h5 class="NavbarTitle mt-2"><i class="fa fa-info"></i> About</h5>
+        <hr class="Grayhr" />
+        <p style="color: rgb(189, 189, 189);font-size: small;">
+          <b>@infoDTO.Title</b>
+          <br><br>
+          Powered by <b>@infoDTO.PoweredBy</b>
+        </p>
+      </div>
+    </div>
+  </div>
+
+@code {
+    [Parameter]
+    public WebSiteInfoDTO infoDTO { get; set; }
+}

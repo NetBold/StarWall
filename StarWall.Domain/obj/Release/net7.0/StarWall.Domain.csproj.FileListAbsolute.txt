@@ -1,0 +1,12 @@
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\bin\Release\net7.0\StarWall.Domain.deps.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\bin\Release\net7.0\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\bin\Release\net7.0\StarWall.Domain.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\StarWall.Domain.csproj.AssemblyReference.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\StarWall.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\StarWall.Domain.AssemblyInfoInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\StarWall.Domain.AssemblyInfo.cs
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\StarWall.Domain.csproj.CoreCompileInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\refint\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\StarWall.Domain.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Release\net7.0\ref\StarWall.Domain.dll

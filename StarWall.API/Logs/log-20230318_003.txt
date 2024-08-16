@@ -1,0 +1,186 @@
+2023-03-18 17:44:32.469 +03:30 [INF] Application Starting
+2023-03-18 17:44:32.496 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-18 17:59:24.623 +03:30 [INF] Application Starting
+2023-03-18 17:59:24.660 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-18 17:59:24.770 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-18 17:59:24.770 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-18 17:59:24.771 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-18 17:59:24.771 +03:30 [INF] Hosting environment: Development
+2023-03-18 17:59:24.771 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-18 17:59:25.884 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-18 17:59:26.034 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 151.8093ms
+2023-03-18 17:59:26.044 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-18 17:59:26.053 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.9834ms
+2023-03-18 17:59:26.312 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-18 17:59:26.342 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4847ms
+2023-03-18 17:59:26.390 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-18 17:59:26.491 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.3831ms
+2023-03-18 17:59:33.724 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-18 17:59:33.731 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 7.8905ms
+2023-03-18 17:59:34.192 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/swagger-ui-bundle.js - -
+2023-03-18 17:59:34.192 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/swagger-ui.css - -
+2023-03-18 17:59:34.192 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/swagger-ui-standalone-preset.js - -
+2023-03-18 17:59:34.208 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-18 17:59:34.214 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.4266ms
+2023-03-18 17:59:34.221 +03:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-18 17:59:34.221 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-18 17:59:34.221 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 29.0033ms
+2023-03-18 17:59:34.221 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/swagger-ui.css - - - 200 143943 text/css 29.0105ms
+2023-03-18 17:59:34.242 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-18 17:59:34.242 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 50.0301ms
+2023-03-18 17:59:34.263 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-18 17:59:34.289 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8417ms
+2023-03-18 17:59:34.386 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-18 17:59:34.392 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.9824ms
+2023-03-18 17:59:34.398 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/favicon-32x32.png - -
+2023-03-18 17:59:34.398 +03:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-18 17:59:34.399 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/favicon-32x32.png - - - 200 628 image/png 0.4982ms
+2023-03-18 18:09:44.887 +03:30 [INF] Application Starting
+2023-03-18 18:09:44.922 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-18 18:09:45.024 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-18 18:09:45.024 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-18 18:09:45.024 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-18 18:09:45.025 +03:30 [INF] Hosting environment: Development
+2023-03-18 18:09:45.025 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-18 22:22:53.677 +03:30 [INF] Application Starting
+2023-03-18 22:22:53.719 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-18 22:22:53.831 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-18 22:22:53.831 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-18 22:22:53.832 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-18 22:22:53.832 +03:30 [INF] Hosting environment: Development
+2023-03-18 22:22:53.832 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-18 22:22:54.609 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-18 22:22:54.759 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 151.3973ms
+2023-03-18 22:22:54.764 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-18 22:22:54.769 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.1360ms
+2023-03-18 22:22:55.051 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-18 22:22:55.087 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.9087ms
+2023-03-18 22:22:55.132 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-18 22:22:55.223 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.1892ms
+2023-03-18 23:32:58.708 +03:30 [INF] Application Starting
+2023-03-18 23:32:58.758 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-18 23:32:58.908 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-18 23:32:58.908 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-18 23:32:58.909 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-18 23:32:58.909 +03:30 [INF] Hosting environment: Development
+2023-03-18 23:32:58.909 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-18 23:32:59.807 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-18 23:32:59.958 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 151.3449ms
+2023-03-18 23:32:59.966 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-18 23:32:59.970 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.9179ms
+2023-03-18 23:33:00.353 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-18 23:33:00.388 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.1583ms
+2023-03-18 23:33:00.430 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-18 23:33:00.521 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.0298ms
+2023-03-18 23:33:09.929 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/Home/GetWebsiteInfo - -
+2023-03-18 23:33:09.938 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers/ - -
+2023-03-18 23:33:10.296 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-18 23:33:10.296 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.HomeController.GetWebsiteInfo (StarWall.API)'
+2023-03-18 23:33:10.311 +03:30 [INF] Route matched with {action = "GetWebsiteInfo", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetWebsiteInfo() on controller StarWall.API.Controllers.HomeController (StarWall.API).
+2023-03-18 23:33:10.311 +03:30 [INF] Route matched with {action = "GetAllWallpapers", controller = "Wallpaper"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWallpapers() on controller StarWall.API.Controllers.WallpaperController (StarWall.API).
+2023-03-18 23:33:10.861 +03:30 [INF] Executing action method StarWall.API.Controllers.HomeController.GetWebsiteInfo (StarWall.API) - Validation state: "Valid"
+2023-03-18 23:33:10.861 +03:30 [INF] Executing action method StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) - Validation state: "Valid"
+2023-03-18 23:33:10.868 +03:30 [INF] GET Attempt for GetWebsiteInfo
+2023-03-18 23:33:10.868 +03:30 [INF] GET Attempt for GetAllWallpapers
+2023-03-18 23:33:11.693 +03:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-18 23:33:12.423 +03:30 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId], [w0].[Id], [w0].[Title], [u].[Id], [w1].[Id], [w1].[FileName], [w1].[WallpaperDeviceCategoryId], [w1].[WallpaperId], [l].[Id], [l].[LikerId], [l].[WallpaperId], [u].[ActiveToken], [u].[Email], [u].[FirstName], [u].[HashedPassword], [u].[IsActive], [u].[LastName], [u].[ProfileImage], [u].[RegisterDate], [u].[RoleId], [u].[Username]
+FROM [Wallpapers] AS [w]
+INNER JOIN [WallpaperGenreCategories] AS [w0] ON [w].[WallpaperGenreCategoryId] = [w0].[Id]
+INNER JOIN [Users] AS [u] ON [w].[UploaderId] = [u].[Id]
+LEFT JOIN [WallpaperImages] AS [w1] ON [w].[Id] = [w1].[WallpaperId]
+LEFT JOIN [Likes] AS [l] ON [w].[Id] = [l].[WallpaperId]
+ORDER BY [w].[PublishDate] DESC, [w].[Id], [w0].[Id], [u].[Id], [w1].[Id]
+2023-03-18 23:33:12.472 +03:30 [INF] Executed action method StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1608.2798ms.
+2023-03-18 23:33:12.478 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StarWall.Core.DTOs.ViewWallpaperDTO, StarWall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-18 23:33:12.524 +03:30 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Address], [w].[Email], [w].[Instagram], [w].[LongDescription], [w].[PhoneNumber1], [w].[PhoneNumber2], [w].[PoweredBy], [w].[ShortDescription], [w].[Telegram], [w].[Title], [w].[Twitter]
+FROM [WebSiteInfos] AS [w]
+2023-03-18 23:33:12.530 +03:30 [INF] Executed action method StarWall.API.Controllers.HomeController.GetWebsiteInfo (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1667.9447ms.
+2023-03-18 23:33:12.530 +03:30 [INF] Executing OkObjectResult, writing value of type 'StarWall.Domain.WebsiteInfoEntities.WebSiteInfo'.
+2023-03-18 23:33:12.565 +03:30 [INF] Executed action StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) in 2251.3556ms
+2023-03-18 23:33:12.565 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-18 23:33:12.569 +03:30 [INF] Executed action StarWall.API.Controllers.HomeController.GetWebsiteInfo (StarWall.API) in 2257.2356ms
+2023-03-18 23:33:12.569 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.HomeController.GetWebsiteInfo (StarWall.API)'
+2023-03-18 23:33:12.570 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/Home/GetWebsiteInfo - - - 200 420 application/json;+charset=utf-8 2641.2930ms
+2023-03-18 23:33:12.570 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers/ - - - 200 2 application/json;+charset=utf-8 2632.4198ms
+2023-03-18 23:33:12.623 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/Admin/GetWallpaperGenreCategories - -
+2023-03-18 23:33:12.626 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API)'
+2023-03-18 23:33:12.628 +03:30 [INF] Route matched with {action = "GetWallpaperGenreCategories", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetWallpaperGenreCategories() on controller StarWall.API.Controllers.AdminController (StarWall.API).
+2023-03-18 23:33:12.639 +03:30 [INF] Executing action method StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API) - Validation state: "Valid"
+2023-03-18 23:33:12.640 +03:30 [INF] GET Attempt for GetWallpaperGenreCategories
+2023-03-18 23:33:12.710 +03:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Title]
+FROM [WallpaperGenreCategories] AS [w]
+2023-03-18 23:33:12.711 +03:30 [INF] Executed action method StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 72.0081ms.
+2023-03-18 23:33:12.711 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StarWall.Domain.WallpaperEntities.WallpaperGenreCategory, StarWall.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-18 23:33:12.714 +03:30 [INF] Executed action StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API) in 85.7643ms
+2023-03-18 23:33:12.714 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API)'
+2023-03-18 23:33:12.714 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/Admin/GetWallpaperGenreCategories - - - 200 88 application/json;+charset=utf-8 91.1793ms
+2023-03-18 23:33:30.209 +03:30 [INF] Request starting HTTP/1.1 POST https://localhost:7186/api/Contact/SendMessage application/json;+charset=utf-8 -
+2023-03-18 23:33:30.210 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.ContactController.SendMessage (StarWall.API)'
+2023-03-18 23:33:30.215 +03:30 [INF] Route matched with {action = "SendMessage", controller = "Contact"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(StarWall.Core.DTOs.ContactDTO) on controller StarWall.API.Controllers.ContactController (StarWall.API).
+2023-03-18 23:33:30.264 +03:30 [INF] Executing action method StarWall.API.Controllers.ContactController.SendMessage (StarWall.API) - Validation state: "Valid"
+2023-03-18 23:33:30.264 +03:30 [INF] POST Attempt for SendMessage
+2023-03-18 23:33:30.442 +03:30 [INF] Executed DbCommand (95ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 110), @p4='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Contacts] ([Body], [CreationDate], [Email], [FullName], [IsSeenByAdmin])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-03-18 23:33:30.455 +03:30 [INF] Executed action method StarWall.API.Controllers.ContactController.SendMessage (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 191.6576ms.
+2023-03-18 23:33:30.457 +03:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-18 23:33:30.457 +03:30 [INF] Executed action StarWall.API.Controllers.ContactController.SendMessage (StarWall.API) in 241.5837ms
+2023-03-18 23:33:30.457 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.ContactController.SendMessage (StarWall.API)'
+2023-03-18 23:33:30.457 +03:30 [INF] Request finished HTTP/1.1 POST https://localhost:7186/api/Contact/SendMessage application/json;+charset=utf-8 - - 200 0 - 247.8178ms
+2023-03-18 23:33:32.417 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/Account/GetUser - -
+2023-03-18 23:33:32.422 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-18 23:33:32.425 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-18 23:33:32.425 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/Account/GetUser - - - 401 0 - 7.7117ms
+2023-03-18 23:33:33.685 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers/ - -
+2023-03-18 23:33:33.686 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-18 23:33:33.686 +03:30 [INF] Route matched with {action = "GetAllWallpapers", controller = "Wallpaper"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWallpapers() on controller StarWall.API.Controllers.WallpaperController (StarWall.API).
+2023-03-18 23:33:33.696 +03:30 [INF] Executing action method StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) - Validation state: "Valid"
+2023-03-18 23:33:33.696 +03:30 [INF] GET Attempt for GetAllWallpapers
+2023-03-18 23:33:33.769 +03:30 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId], [w0].[Id], [w0].[Title], [u].[Id], [w1].[Id], [w1].[FileName], [w1].[WallpaperDeviceCategoryId], [w1].[WallpaperId], [l].[Id], [l].[LikerId], [l].[WallpaperId], [u].[ActiveToken], [u].[Email], [u].[FirstName], [u].[HashedPassword], [u].[IsActive], [u].[LastName], [u].[ProfileImage], [u].[RegisterDate], [u].[RoleId], [u].[Username]
+FROM [Wallpapers] AS [w]
+INNER JOIN [WallpaperGenreCategories] AS [w0] ON [w].[WallpaperGenreCategoryId] = [w0].[Id]
+INNER JOIN [Users] AS [u] ON [w].[UploaderId] = [u].[Id]
+LEFT JOIN [WallpaperImages] AS [w1] ON [w].[Id] = [w1].[WallpaperId]
+LEFT JOIN [Likes] AS [l] ON [w].[Id] = [l].[WallpaperId]
+ORDER BY [w].[PublishDate] DESC, [w].[Id], [w0].[Id], [u].[Id], [w1].[Id]
+2023-03-18 23:33:33.770 +03:30 [INF] Executed action method StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 73.7296ms.
+2023-03-18 23:33:33.770 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StarWall.Core.DTOs.ViewWallpaperDTO, StarWall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-18 23:33:33.770 +03:30 [INF] Executed action StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) in 83.5089ms
+2023-03-18 23:33:33.770 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-18 23:33:33.770 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers/ - - - 200 2 application/json;+charset=utf-8 84.7160ms
+2023-03-18 23:33:33.791 +03:30 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/Admin/GetWallpaperGenreCategories - -
+2023-03-18 23:33:33.793 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API)'
+2023-03-18 23:33:33.794 +03:30 [INF] Route matched with {action = "GetWallpaperGenreCategories", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetWallpaperGenreCategories() on controller StarWall.API.Controllers.AdminController (StarWall.API).
+2023-03-18 23:33:33.803 +03:30 [INF] Executing action method StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API) - Validation state: "Valid"
+2023-03-18 23:33:33.803 +03:30 [INF] GET Attempt for GetWallpaperGenreCategories
+2023-03-18 23:33:33.838 +03:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Title]
+FROM [WallpaperGenreCategories] AS [w]
+2023-03-18 23:33:33.838 +03:30 [INF] Executed action method StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 35.7657ms.
+2023-03-18 23:33:33.838 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StarWall.Domain.WallpaperEntities.WallpaperGenreCategory, StarWall.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-18 23:33:33.839 +03:30 [INF] Executed action StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API) in 45.112ms
+2023-03-18 23:33:33.839 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.AdminController.GetWallpaperGenreCategories (StarWall.API)'
+2023-03-18 23:33:33.839 +03:30 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/Admin/GetWallpaperGenreCategories - - - 200 88 application/json;+charset=utf-8 48.0008ms
+2023-03-18 23:33:59.573 +03:30 [INF] Application Starting
+2023-03-18 23:33:59.615 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-18 23:33:59.727 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-18 23:33:59.727 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-18 23:33:59.728 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-18 23:33:59.728 +03:30 [INF] Hosting environment: Development
+2023-03-18 23:33:59.728 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-18 23:34:00.760 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-18 23:34:00.926 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 168.1298ms
+2023-03-18 23:34:00.933 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-18 23:34:00.936 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.1158ms
+2023-03-18 23:34:01.436 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-18 23:34:01.469 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.8834ms
+2023-03-18 23:34:01.512 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-18 23:34:01.612 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.7929ms

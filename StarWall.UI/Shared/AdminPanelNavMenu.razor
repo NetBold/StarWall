@@ -1,0 +1,45 @@
+﻿<div class="container-fluid px-3 py-2">
+    <div class="row bg-dark rounded">
+        @if (role == "Admin")
+        {
+                        <div class="col-md-3 p-1">
+                            <a class="btn btn-dark form-control text-white-50" href="/AdminPanel/ManageWebInfo"><i class="fa fa-user"></i> Manage WebInfo</a>
+                        </div>
+                        <div class="col-md-3 p-1">
+                            <a class="btn btn-dark form-control text-white-50" href="/AdminPanel/ManageContactMessages"><i class="fa fa-send"></i> Manage Messages</a>
+                        </div>
+                        <div class="col-md-3 p-1 mb-2">
+                            <a class="btn btn-dark form-control text-white-50"><i class="fa fa-user"></i> Manage Users</a>
+                        </div>
+                             <div class="col-md-3 p-1">
+                    <a class="btn btn-dark form-control text-white-50" href="/AdminPanel/ManageWallpapers"><i class="fa fa-images"></i> Manage Wallpapers</a>
+                </div>        
+                <div class="col-md-3 p-1 mb-2">
+                    <a class="btn btn-dark form-control text-white-50" href="/AdminPanel/ManageGenres"><i class="fa fa-user"></i> Manage Genres</a>
+                </div>
+        }
+        else
+        {
+            <div class="col-md-3 p-1">
+                <a class="btn btn-dark form-control text-white-50" href="/AdminPanel/ManageWallpapers"><i class="fa fa-images"></i> Manage Wallpapers</a>
+            </div>        
+            <div class="col-md-3 p-1 mb-2">
+                <a class="btn btn-dark form-control text-white-50" href="/AdminPanel/ManageGenres"><i class="fa fa-user"></i> Manage Genres</a>
+            </div>
+        }
+        <hr class="grayhr mb-3" />
+        <h5 class="text-center" style="color: rgb(255, 132, 132);">Admin Panel</h5>
+    </div>
+</div>
+
+@code {
+    private string role = "";
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            role = await AuthStateHandler.GetUserRole();
+            StateHasChanged();
+        }
+    }
+}

@@ -1,0 +1,76 @@
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Persistence.deps.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Persistence.runtimeconfig.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Persistence.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/ref/StarWall.Persistence.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Persistence.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Domain.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Domain.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.csproj.AssemblyReference.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.AssemblyInfoInputs.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.AssemblyInfo.cs
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.csproj.CoreCompileInputs.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.csproj.CopyComplete
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/ref/StarWall.Persistence.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/obj/Debug/net6.0/StarWall.Persistence.genruntimeconfig.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Core.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Persistence/bin/Debug/net6.0/StarWall.Core.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.deps.json
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.runtimeconfig.json
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Core.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Domain.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Core.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Domain.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.AssemblyReference.cache
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.AssemblyInfoInputs.cache
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.AssemblyInfo.cs
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.CoreCompileInputs.cache
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.CopyComplete
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\refint\StarWall.Persistence.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.genruntimeconfig.cache
+\\VBOXSVR\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\ref\StarWall.Persistence.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.deps.json
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.runtimeconfig.json
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.pdb
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Core.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Domain.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Core.pdb
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Domain.pdb
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.AssemblyReference.cache
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.AssemblyInfoInputs.cache
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.AssemblyInfo.cs
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.CopyComplete
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\refint\StarWall.Persistence.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.pdb
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.genruntimeconfig.cache
+C:\Users\Morgan\Desktop\StarWall\StarWall.Persistence\obj\Debug\net6.0\ref\StarWall.Persistence.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.deps.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.runtimeconfig.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Persistence.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Core.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Core.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\bin\Debug\net6.0\StarWall.Domain.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.AssemblyReference.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.AssemblyInfoInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.AssemblyInfo.cs
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.CoreCompileInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.csproj.CopyComplete
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\refint\StarWall.Persistence.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\StarWall.Persistence.genruntimeconfig.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\obj\Debug\net6.0\ref\StarWall.Persistence.dll

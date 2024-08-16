@@ -1,0 +1,73 @@
+﻿@page "/AdminPanel/ManageGenres"
+@using StarWall.Domain.WallpaperEntities;
+@layout AdminPanelLayout
+@inject AdminAPIService AdminAPIService
+<PageTitle>StarWall - AdminPanel</PageTitle>
+<div class="container-fluid px-3 py-2">
+    <div class="row bg-dark rounded">
+        <h5 style="color: rgb(77, 206, 211);" class="mt-2"><i class="fa far fa-image"></i> Manage Wallpapers</h5>
+        <h6 class="mt-2 text-white">Wallpapers</h6>
+        <div class="col-md-12 mb-2">
+            <a class="btn btn-success form-control" href="/AdminPanel/CreateGenre"><i class="fa fa-plus"></i>
+                Create</a>
+        </div>        
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var genre in WallpaperGenreCategories)
+                {
+                    <tr>                            
+                        <td>@genre.Title</td>                        
+                        <td>
+                            <a class="btn btn-warning" href="/AdminPanel/EditGenre/@genre.Id"><i
+                            class="fa fa-edit"></i></a>
+                            <a class="btn btn-danger" @onclick="() => HandleDeleteButtonClick(genre.Id)"><i
+                            class="fa fa-trash"></i></a>
+                            <a class="btn btn-secondary" href=""><i class="fa fa-eye"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>        
+    </div>
+</div>
+
+<StarWall.UI.Components.DeleteConfirmation IsParentProcessing="isProcessing" ConfirmationChanged="ConfirmDelete_Click"></StarWall.UI.Components.DeleteConfirmation>
+
+@code {
+    private bool isProcessing = false;
+    private List<WallpaperGenreCategory> WallpaperGenreCategories = new();
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await AuthStateHandler.CheckAuthorizationAdminOrUploader();
+        if (firstRender)
+        {
+            WallpaperGenreCategories = await AdminAPIService.GetWallpaperGenreCategories();
+            StateHasChanged();
+        }
+    }
+
+    private long deletingGenreId = 0;
+    private async Task HandleDeleteButtonClick(long genreId)
+    {
+        deletingGenreId = genreId;
+        await JsRuntime.InvokeVoidAsync("showConfirmationModal");
+    }
+
+    public async Task ConfirmDelete_Click(bool isConfirmed)
+    {
+        isProcessing = true;
+        if (isConfirmed && deletingGenreId > 0)
+        {
+            await AdminAPIService.DeleteGenre(deletingGenreId);
+            WallpaperGenreCategories = await AdminAPIService.GetWallpaperGenreCategories();
+            await JsRuntime.InvokeVoidAsync("hideConfirmationModal");
+        }
+        isProcessing = false;
+    }
+}

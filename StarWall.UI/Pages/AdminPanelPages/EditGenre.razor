@@ -1,0 +1,55 @@
+﻿@page "/AdminPanel/EditGenre/{Id:long}"
+@layout AdminPanelLayout
+@inject AdminAPIService AdminAPIService
+<PageTitle>StarWall - AdminPanel</PageTitle>
+<EditForm Model="@UpdateGenreDTO" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator/>
+<div class="container-fluid px-3 py-2">
+        <div class="row bg-dark rounded">
+            <h5 style="color: rgb(77, 206, 211);" class="mt-2"><i class="fa far fa-image"></i> Edit Wallpaper</h5>
+            <div class="col-md-12 p-2">
+                <div class="form-group">
+                    <label class="text-white-50">Title</label>
+                    <InputText @bind-Value="@UpdateGenreDTO.Title" type="text" class="form-control" />
+                    <ValidationMessage class="text-danger" For="@(() => UpdateGenreDTO.Title)"/>
+                </div>
+            </div>            
+             <div class="col-md-4 p-2">
+                <a class="btn btn-secondary form-control" href="/AdminPanel/ManageGenres"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</a>
+            </div> 
+            <div class="col-md-4 p-2">
+                <a @onclick="HandleResetClick" class="btn btn-info form-control"><i class="fa fa-refresh"></i> Reset</a>
+            </div>
+            <div class="col-md-4 p-2">
+                <button class="btn btn-success form-control"><i class="fa fa-save"></i> Save</button>
+            </div>     
+        </div>
+    </div>
+    </EditForm>
+
+@code {
+    [Parameter]
+    public long Id { get; set; }
+
+    private UpdateGenreDTO UpdateGenreDTO = new();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await AuthStateHandler.CheckAuthorizationAdminOrUploader();
+        if (firstRender)
+        {
+            UpdateGenreDTO = await AdminAPIService.GetGenreForUpdate(Id);
+            StateHasChanged();
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await AdminAPIService.UpdateGenre(Id, UpdateGenreDTO);
+    }
+
+    private async Task HandleResetClick()
+    {
+        UpdateGenreDTO = await AdminAPIService.GetGenreForUpdate(Id);
+    }
+}

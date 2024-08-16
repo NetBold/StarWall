@@ -1,0 +1,25 @@
+﻿@using System.Net.Http
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.JSInterop
+@using StarWall.UI
+@using StarWall.UI.Shared
+@using StarWall.Core.DTOs
+@using StarWall.UI.Enums
+@using StarWall.Core.FileServices
+@using System.Text
+@using StarWall.Core.Security
+@using Blazored.LocalStorage
+@using StarWall.Core.Models
+@using System.Text.Json
+@using System.Net.Http.Headers
+@using StarWall.UI.APIServices;
+@inject IHttpClientFactory ClientFactory
+@inject IJSRuntime JsRuntime
+@inject ILocalStorageService localStorage
+@inject NavigationManager Navigation
+@inject CustomAuthStateHandler AuthStateHandler

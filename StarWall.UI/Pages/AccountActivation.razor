@@ -1,0 +1,71 @@
+﻿@page "/AccountActivation/{Username}"
+@inject AccountAPIService AccountAPIService
+<PageTitle>StarWall - Account Activation</PageTitle>
+<EditForm Model="@accountActivationDTO" OnValidSubmit="@HandleValidSubmit">
+<DataAnnotationsValidator/>
+<div class="container bg-dark rounded">
+        <div class="row">
+            @if (isMsgShow)
+            {
+                  <StarWall.UI.Components.ShowMassage Message="The Token was sent to Your Email! Enter the token to activate your account." MessageType="@MessageType.info"/>
+            }
+            @if (isSuccess)
+            {
+                  <div class="text-center mt-2">
+                      <div class="alert alert-success">
+                          <b>Your Account was activated successfully!</b>
+                          <a href="/login">Click Here to Login Your Account</a>
+                      </div>
+                  </div>
+            }
+            <div class="mb-3">
+                <InputText @bind-Value="@accountActivationDTO.UserToeken" type="text" placeholder="Enter Your Token" style="text-align: center;" class="form-control" />
+                <ValidationMessage class="text-danger" For="@(()=>accountActivationDTO.UserToeken)"/>
+            </div>
+            <div class="text-center mb-2">
+                @{
+                    if (isButtonEnabled)
+                    {
+                        <button type="submit" class="btn btn-info" style="width: 150px;">Activate</button>
+                    }
+                    else
+                    {
+                        <button type="submit" disabled class="btn btn-info" style="width: 150px;">Activate</button>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    </EditForm>
+@code {
+    [Parameter]
+    public string Username { get; set; }
+
+    private bool isSuccess = false;
+
+    private bool isMsgShow = true;
+
+    private bool isButtonEnabled = true;
+
+    private AccountActivationDTO accountActivationDTO = new();
+
+    HttpClient client = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        isMsgShow = true;
+        accountActivationDTO.Username = Username;
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        isSuccess = await AccountAPIService.ActivateAccount(accountActivationDTO);
+        if (isSuccess)
+        {
+            isSuccess = true;
+            isButtonEnabled = false;
+            accountActivationDTO = new();
+        }
+        isMsgShow = false;
+    }
+}

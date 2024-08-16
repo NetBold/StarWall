@@ -1,0 +1,48 @@
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/bin/Debug/net6.0/StarWall.Domain.deps.json
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/bin/Debug/net6.0/StarWall.Domain.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/bin/Debug/net6.0/ref/StarWall.Domain.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/bin/Debug/net6.0/StarWall.Domain.pdb
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/StarWall.Domain.csproj.AssemblyReference.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/StarWall.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/StarWall.Domain.AssemblyInfoInputs.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/StarWall.Domain.AssemblyInfo.cs
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/StarWall.Domain.csproj.CoreCompileInputs.cache
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/StarWall.Domain.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/ref/StarWall.Domain.dll
+/media/sahand/P 1/MyFiles/C#/Projects/StarWall/StarWall/StarWall.Domain/obj/Debug/net6.0/StarWall.Domain.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.deps.json
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.csproj.AssemblyReference.cache
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.GeneratedMSBuildEditorConfig.editorconfig
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.AssemblyInfoInputs.cache
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.AssemblyInfo.cs
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.csproj.CoreCompileInputs.cache
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\refint\StarWall.Domain.dll
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.pdb
+\\VBOXSVR\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\ref\StarWall.Domain.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.deps.json
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.pdb
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.csproj.AssemblyReference.cache
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.AssemblyInfoInputs.cache
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.AssemblyInfo.cs
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\refint\StarWall.Domain.dll
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.pdb
+C:\Users\Morgan\Desktop\StarWall\StarWall.Domain\obj\Debug\net6.0\ref\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.deps.json
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\bin\Debug\net6.0\StarWall.Domain.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.csproj.AssemblyReference.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.AssemblyInfoInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.AssemblyInfo.cs
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.csproj.CoreCompileInputs.cache
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\refint\StarWall.Domain.dll
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\StarWall.Domain.pdb
+D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Domain\obj\Debug\net6.0\ref\StarWall.Domain.dll

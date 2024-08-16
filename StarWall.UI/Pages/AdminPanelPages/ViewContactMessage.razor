@@ -1,0 +1,57 @@
+﻿@page "/AdminPanel/ViewContactMessage/{Id:long}"
+@inject AdminAPIService AdminAPIService
+@layout AdminPanelLayout
+<PageTitle>StarWall - AdminPanel</PageTitle>
+@if (Id > 0 && ContactDTO != null)
+{
+   <div class="container-fluid px-4 py-3">
+       <div class="row bg-dark rounded p-2">
+           <h5 style="color: rgb(77, 206, 211);" class="mt-2 text-center"><i class="fa fa-send"></i> View Message</h5>
+           <hr class="Grayhr">
+           <p class="text-white-50 text-center">
+               <i class="fa fa-envelope"></i> Email Address : <b class="text-white">@ContactDTO.Email</b>
+               <br>
+               <i class="fa fa-id-card"></i> Full Name : <b class="text-white">@ContactDTO.FullName</b>
+               <br>
+               <i class="fa fa-calender"></i> Creation Date : <b class="text-white">@ContactDTO.CreationDate</b>
+               <br>
+           </p>
+           <p class="text-white-50 text-center"><i class="fa fa-newspaper"></i> Content :</p>
+               <div class="col-md-12 bg-light rounded mb-3">
+                   @((MarkupString)ContactDTO.Body)
+               </div>
+           <br>
+           <div class="col-md-6 p-1">
+               <a class="btn btn-secondary form-control" href="/AdminPanel/ManageContactMessages"><i class="fa fa-arrow-left" aria-hidden="true"></i> back</a>
+           </div>
+           <div class="col-md-6 p-1">
+               <button class="btn btn-danger form-control" @onclick="HandleDeleteAndBack"><i class="fa fa-trash" aria-hidden="true"></i> Delete And Back</button>
+           </div>
+       </div>
+   </div>
+}
+
+@code {
+    [Parameter]
+    public long Id { get; set; }
+
+    private ContactDTO ContactDTO;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await AuthStateHandler.CheckAuthorizationAdmin();
+        if (firstRender)
+        {
+            ContactDTO = await AdminAPIService.GetContactMessage(Id);
+            await AdminAPIService.MakeContactMessageSeen(Id);
+            StateHasChanged();
+        }
+    }
+
+    private async Task HandleDeleteAndBack()
+    {
+        await AdminAPIService.DeleteContact(Id);
+        Navigation.NavigateTo("/AdminPanel/ManageContactMessages");
+        await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.success.ToString());
+    }
+}

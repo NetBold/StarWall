@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "ogY+A28I88K5w7H6j8GDvtl4ILauiBU1W7x2LZVXvrg=",
+  "Source": "StarWall.API",
+  "BasePath": "_content/StarWall.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StarWall.API\\wwwroot",
+      "Source": "StarWall.API",
+      "ContentRoot": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\",
+      "BasePath": "_content/StarWall.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\ProfileImages\\ongnfsgj.3j3.png",
+      "SourceId": "StarWall.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\",
+      "BasePath": "_content/StarWall.API",
+      "RelativePath": "UploadedFiles/ProfileImages/ongnfsgj.3j3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\ProfileImages\\ongnfsgj.3j3.png"
+    },
+    {
+      "Identity": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\WallpaperImages\\1kqndsgi.m0n.jpg",
+      "SourceId": "StarWall.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\",
+      "BasePath": "_content/StarWall.API",
+      "RelativePath": "UploadedFiles/WallpaperImages/1kqndsgi.m0n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\WallpaperImages\\1kqndsgi.m0n.jpg"
+    },
+    {
+      "Identity": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\WallpaperImages\\qu5tjkfa.qu3.jpg",
+      "SourceId": "StarWall.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\",
+      "BasePath": "_content/StarWall.API",
+      "RelativePath": "UploadedFiles/WallpaperImages/qu5tjkfa.qu3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\WallpaperImages\\qu5tjkfa.qu3.jpg"
+    },
+    {
+      "Identity": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\WallpaperImages\\s11lwaab.aua.jpg",
+      "SourceId": "StarWall.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\",
+      "BasePath": "_content/StarWall.API",
+      "RelativePath": "UploadedFiles/WallpaperImages/s11lwaab.aua.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\WallpaperImages\\s11lwaab.aua.jpg"
+    }
+  ]
+}

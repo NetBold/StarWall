@@ -1,0 +1,177 @@
+﻿@page "/ViewWallpaper/{Id:long}"
+@using StarWall.Domain.WallpaperEntities;
+@using System.Net;
+@inject HomeAPIService HomeAPIService
+@if (viewWallpaperDTO != null)
+{
+                    <div class="container-fluid px-4">
+                        <div class="row bg-dark p-2 rounded">
+                            <div class="col-6 mt-1">
+                @if (isAdminOrUploader)
+                {
+                                                    <a class="NavbarTitle" href="/AdminPanel/ManageWallpapers" style="text-decoration: none;"><i
+                    class="fa fa-arrow-left"></i> Wallpapers</a>
+                                                    <br />
+                }
+                                <a class="NavbarTitle" href="/" style="text-decoration: none;"><i class="fa fa-arrow-left"></i> Home</a>
+                            </div>
+                            <div class="col-6 mt-1" style="text-align: right;">
+                                <p class="text-white-50" style="font-size: smaller;">@viewWallpaperDTO.PublishDate --
+                    @viewWallpaperDTO.Uploader.FirstName @viewWallpaperDTO.Uploader.LastName</p>
+                            </div>
+                            <hr class="Grayhr mb-2" />
+            @if (!isAuthenticated)
+            {
+                                                <div class="col-md-12 p-2">
+                                                    <div class="alert alert-info text-center">
+                                                        <p>To be able to use our complete services and download the wallpapers login into you account</p>
+                                                        <a href="/login">Click Here to Login Your Account</a>
+                                                    </div>
+                                                </div>
+            }
+                            <h5 class="lightAqua"><i class="fa fa-image"></i> @viewWallpaperDTO.Title</h5>
+                            <div class="col-md-6 mb-3">
+                                    <label class="text-white-50">Device</label>
+                                <InputSelect @bind-Value="@SelectedGenre" class="mb-2 form-select bg-dark text-white"
+                aria-label="Default select example">
+                    @foreach (var device in wallpaperDeviceCategories)
+                    {
+                                                        <option value="@device.Title">@device.Title</option>
+                    }
+                                </InputSelect>
+                                <img src="@viewWallpaperDTO.WallpaperImages.SingleOrDefault(x=>x.WallpaperDeviceCategoryId == 2).FileName"
+                class="img-fluid wallpaperItemInView" />
+                            </div>
+                            <div class="col-md-6 mt-2 mb-2">
+                                <div class="text-white">
+                                    <p><i class="fa fa-upload"></i> Uploader : @viewWallpaperDTO.Uploader.FirstName
+                        @viewWallpaperDTO.Uploader.LastName</p>
+                                    <p><i class="fa fa-calendar"></i> Publish Date : @viewWallpaperDTO.PublishDate</p>
+                                    <p><i class="fa fas fa-object-group"></i> Genre : @viewWallpaperDTO.WallpaperGenreCategory.Title</p>
+                                    <p><i class="fa fa-link"></i> Source : @viewWallpaperDTO.Source</p>
+                                    <p class="text-white-50"><i class="fa fa-Eye"></i> Views : @viewWallpaperDTO.ViewsCount --- <i
+                        class="fa fa-heart"></i> Likes
+                                        : @viewWallpaperDTO.Likes.Count --- <i class="fa fa-download"></i> Downloads :
+                        @viewWallpaperDTO.DownloadsCount</p>
+                                    <hr class="Grayhr" />
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 p-2">
+                                        <button @onclick="() => HandleDownloadClick(viewWallpaperDTO.Id)"
+                        class="btn btn-info form-control text-center"><i class="fa fa-file-download"></i>
+                                            Download</button>
+                                    </div>
+                                    <div class="col-md-6 p-2">
+                        @if (isAuthenticated)
+                        {
+                            @if (!isCurrentUserLiked)
+                            {
+                                                        <button @onclick="HandleLikeWallpaper" class="btn btn-danger form-control text-center"><i class="fa fa-heart"></i> Like</button>
+                            }
+                            else
+                            {   
+                                                        <button @onclick="HandleLikeWallpaper" class="btn btn-danger form-control text-center text-black"><i class="fa fa-heart"></i> Like</button>
+                            }   
+                        }
+                        else
+                        {
+                                               <button @onclick="HandleLikeWallpaper" class="btn btn-danger form-control text-center"><i class="fa fa-heart"></i> Like</button>
+                        }
+                                    </div>
+                                    <p class="text-white-50">Description : <br /> @viewWallpaperDTO.Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-white">
+                    </div>
+}
+@code {
+    [Parameter]
+    public long Id { get; set; }
+
+
+    private bool isAuthenticated = false;
+    private long currentUserId = 0;
+    private ViewWallpaperDTO viewWallpaperDTO;
+    private bool isAdminOrUploader = false;
+    private string SelectedGenre = "";
+    private List<WallpaperDeviceCategory> wallpaperDeviceCategories = new();
+    private bool isCurrentUserLiked = false;
+
+    private async Task InitializePage(bool seen)
+    {
+        var decodedJWTModel = await AuthStateHandler.IsAuthorizationNormalUserAndGetDecoded();
+        isAdminOrUploader = await AuthStateHandler.IsAuthorizationAdminOrUploader();
+        isAuthenticated = decodedJWTModel is not null;
+        viewWallpaperDTO = await HomeAPIService.GetWallpaperForView(Id, seen);
+        if (isAuthenticated)
+        {
+            currentUserId = decodedJWTModel.Id;
+        }
+        bool isAnyLikes = viewWallpaperDTO.Likes.Any();
+
+        Like currentUserLike = viewWallpaperDTO.Likes.SingleOrDefault(x => x.LikerId == currentUserId);
+        isCurrentUserLiked = currentUserLike != null;
+        wallpaperDeviceCategories = await HomeAPIService.GetWallpaperDeviceCategories();
+        StateHasChanged();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await InitializePage(true);
+        }
+    }
+
+    private async Task HandleDownloadClick(long id)
+    {
+        if (!isAuthenticated)
+        {
+            await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.error.ToString(), "You have to login to your account first");
+        }
+        else
+        {
+            if (!string.IsNullOrEmpty(SelectedGenre))
+            {
+                string path = await HomeAPIService.DownloadWallpaper(id, SelectedGenre);
+                if (!string.IsNullOrEmpty(path))
+                {
+                    using (WebClient client = new WebClient())
+                    {
+                        byte[] imageData = client.DownloadData(path);
+                        MemoryStream stream = new MemoryStream(imageData);
+                        using var streamRef = new DotNetStreamReference(stream: stream);
+                        var fileName = Path.GetRandomFileName()+Path.GetExtension(path);
+                        await JsRuntime.InvokeVoidAsync("downloadFileFromStream", fileName, streamRef);
+                        // Use the stream here
+                    }
+                    //FileStream fileStream = new FileStream(path, FileMode.Open,FileAccess.Read);
+                    //var fileName = viewWallpaperDTO.WallpaperImages.SingleOrDefault(x => x.WallpaperDeviceCategory.Title == SelectedGenre);
+                    //using var streamRef = new DotNetStreamReference(stream: fileStream);
+                    //await JsRuntime.InvokeVoidAsync("downloadFileFromStream", fileName, streamRef);
+                }
+                //await JsRuntime.InvokeVoidAsync("downloadFileFromStream", Guid.NewGuid(), path);
+            }
+            else
+            {
+                await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.error.ToString(), "Select a device to download the wallpaper file");
+            }
+        }
+    }
+
+    private async Task HandleLikeWallpaper()
+    {
+        if (!isAuthenticated)
+        {
+            await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.error.ToString(), "You have to login to your account first");
+        }
+        else
+        {
+            await HomeAPIService.LikeWallpaper(Id);
+            await InitializePage(false);
+        }
+    }
+}

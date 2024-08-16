@@ -1,0 +1,211 @@
+﻿@page "/"
+@using StarWall.Domain.WallpaperEntities;
+@using X.PagedList;
+@inject HomeAPIService HomeAPIService
+
+<PageTitle>StarWall</PageTitle>
+<div class="container-fluid px-3">
+    <div class="row">
+        @foreach (var item in MostViewedWallpapers)
+        {
+            <div class="col-md-3 col-6 p-1">
+                <a href="/ViewWallpaper/@item.Id"><img class="chanceImage" src="@GetWallpaperPath(item.WallpaperImages.SingleOrDefault( x=>x.WallpaperDeviceCategoryId == 2 ).FileName)"></a>
+            </div>
+        }
+    </div>
+</div>
+<div class="container-fluid mt-3 px-3">
+    <div class="row rounded">
+        <div class="col-lg-6 p-1">
+            <InputText type="text" placeholder="Search Wallpapers..." class="bg-dark form-control text-white" @bind-Value="searchFilterForWallpapers"></InputText>
+        </div>
+        <div class="col-lg-2 p-1">
+            <button class="pinkButton" type="submit" @onclick="HandleSerach"><i class="text-black fa fa-search"></i> Search</button>
+        </div>
+        <div class="col-lg-2 p-1">
+            <button class="btn btn-secondary form-control" type="submit" @onclick="HandleReload"><i class="fa fa-search"></i> Reload</button>
+        </div>
+        <div class="col-lg-2 col-6 p-1">
+            <InputSelect class="form-select bg-dark text-white" aria-label="Default select example" @bind-Value="selectedGenre">
+                <option selected>Genre Category</option>
+                @foreach (var genre in WallpaperGenreCategories)
+                {
+                    <option value="@genre.Title">@genre.Title</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-3" style="direction: rtl;text-align: left;">
+    <div class="row">
+        <div class="col-lg-10 col-md-12">
+            <div class="row" dir="ltr">
+                <h5 dir="ltr" style="color: rgb(77, 206, 211);"><i class="fa fa-image"></i> Wallpapers</h5>
+                <hr class="Grayhr">
+                @foreach (var wallpaper in DisplayingWallpapers)
+                {
+                    <StarWall.UI.Components.WallpaperItem Wallpaper="wallpaper" />
+                }
+                <nav dir="ltr" style="margin-top: 10px;" aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        @if (AllWallpapers.Any())
+                        {
+                            <li class="page-item">
+                                <a class="page-link" aria-label="Previous" @onclick="HandlePreviousClick"
+                                   style="color: aliceblue; cursor:pointer;">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            @for (int i = 1; i <= pagesCountOfWallpapers; i++)
+                            {
+                                var pageId = i;
+                                <li class="page-item @(currentPageNumberOfWallpapers == pageId ?" active":"")"><a class="page-link" style="color: aliceblue; cursor:pointer;" @onclick="() => HandlePageButtonClick(pageId)">@pageId</a></li>
+                            }
+                            <li class="page-item">
+                                <a class="page-link" aria-label="Next" @onclick="HandleNextClick"
+                                   style="color: aliceblue; cursor:pointer;">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+                <img src="~/images/slides/slide1.jpg" />
+                <Advertisement />
+
+                <h5 dir="ltr" style="margin-top: 25px; color: rgb(77, 206, 211);">
+                    <i class="fa fa-chart-bar"></i> Most
+                    Rated
+                </h5>
+                <hr class="Grayhr">
+                @foreach (var wallpaper in MostLikedWallpapers)
+                {
+                    <StarWall.UI.Components.WallpaperItem Wallpaper="@wallpaper" />
+                }
+            </div>
+        </div>
+        <div class="col-lg-2 d-lg-block d-md-none d-sm-none" dir="ltr">
+            <div class="bg-dark form-control" style="width: 100%;">
+                <b style="color: rgb(155, 196, 196);"><i class="fa fa-layer-group"></i> Categories</b>
+                @foreach (var genre in WallpaperGenreCategories)
+                {
+                    <hr class="Grayhr">
+                    <div class="p-1 listDiv">
+                        <a class="listLink" @onclick="() => HandleGenreClick(genre.Title)">@genre.Title</a>
+                    </div>
+                }
+                <hr class="Grayhr">
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<ViewWallpaperDTO> AllWallpapers = new();
+    private List<ViewWallpaperDTO> DisplayingWallpapers = new();
+    private List<ViewWallpaperDTO> MostViewedWallpapers = new();
+    private List<ViewWallpaperDTO> MostLikedWallpapers = new();
+    private List<WallpaperGenreCategory> WallpaperGenreCategories = new();
+    public int pagesCountOfWallpapers { get; set; } = 0;
+    private int currentPageNumberOfWallpapers = 1;
+    private int defaultPageSize = 50;
+
+    private string selectedGenre = "Genre Category";
+    private string searchFilterForWallpapers = "";
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            AllWallpapers = await HomeAPIService.GetAllWallpapers();
+            MostViewedWallpapers = AllWallpapers.OrderByDescending(x => x.ViewsCount).Take(4).ToList();
+            MostLikedWallpapers = AllWallpapers.OrderByDescending(x => x.Likes.Count).Take(4).ToList();
+            WallpaperGenreCategories = await HomeAPIService.GetWallpaperGenreCategories();
+            await SetDisplayingWallpapers();
+            StateHasChanged();
+        }
+    }
+
+    private async Task SetDisplayingWallpapers()
+    {
+        DisplayingWallpapers = await AllWallpapers.ToPagedList(currentPageNumberOfWallpapers, defaultPageSize).ToListAsync();
+        pagesCountOfWallpapers = AllWallpapers.Count / defaultPageSize;
+        if (AllWallpapers.Count % defaultPageSize == 0)
+        {
+
+        }
+        else
+        {
+            pagesCountOfWallpapers++;
+        }
+    }
+
+    private async Task HandlePageButtonClick(int pageNumber)
+    {
+        currentPageNumberOfWallpapers = pageNumber;
+        await SetDisplayingWallpapers();
+    }
+
+    private async Task HandlePreviousClick()
+    {
+        if (currentPageNumberOfWallpapers > 1)
+            currentPageNumberOfWallpapers--;
+        else
+            currentPageNumberOfWallpapers = pagesCountOfWallpapers;
+        await SetDisplayingWallpapers();
+    }
+
+    private async Task HandleNextClick()
+    {
+        if (currentPageNumberOfWallpapers < pagesCountOfWallpapers)
+            currentPageNumberOfWallpapers++;
+        else
+            currentPageNumberOfWallpapers = 1;
+        await SetDisplayingWallpapers();
+    }
+
+    HttpClient client;
+    protected override async Task OnInitializedAsync()
+    {
+        client = ClientFactory.CreateClient("StarWallApi");
+        baseWallpaperImagePath = $"{client.BaseAddress}UploadedFiles/WallpaperImages/";
+    }
+
+    private string baseWallpaperImagePath = "";
+    private string GetWallpaperPath(string fileName)
+    {
+        string path = baseWallpaperImagePath + fileName;
+        return path;
+    }
+
+    private async Task HandleSerach()
+    {
+        if (selectedGenre != "Genre Category")
+        {
+            DisplayingWallpapers = await AllWallpapers.Where(x => x.Title.Contains(searchFilterForWallpapers) & x.WallpaperGenreCategory.Title == selectedGenre).ToListAsync();
+        }
+        else
+        {
+            DisplayingWallpapers = await AllWallpapers.Where(x => x.Title.Contains(searchFilterForWallpapers)).ToListAsync();
+        }
+    }
+
+    private async Task HandleReload()
+    {
+        searchFilterForWallpapers = "";
+        selectedGenre = "Genre Category";
+        AllWallpapers = await HomeAPIService.GetAllWallpapers();
+        MostViewedWallpapers = AllWallpapers.OrderByDescending(x => x.ViewsCount).Take(4).ToList();
+        MostLikedWallpapers = AllWallpapers.OrderByDescending(x => x.Likes.Count).Take(4).ToList();
+        WallpaperGenreCategories = await HomeAPIService.GetWallpaperGenreCategories();
+        await SetDisplayingWallpapers();
+        StateHasChanged();
+    }
+
+    private async Task HandleGenreClick(string genreTitle)
+    {
+        selectedGenre = genreTitle;
+        await HandleSerach();
+    }
+}

@@ -1,0 +1,85 @@
+﻿@page "/UserPanel"
+@using StarWall.Domain.WallpaperEntities;
+@inject AccountAPIService AccountAPIService
+@inject HomeAPIService HomeAPIService
+<PageTitle>StarWall - User Panel</PageTitle>
+@if (userDTO != null)
+{
+                <div class="container-lg mt-2 px-4">
+                        <div class="row bg-dark p-2 rounded">
+                            <div class="col-md-3 p-2 d-flex justify-content-center">
+                                            <img src="@userDTO.ProfileImage" class="rounded img-fluid"
+                    style="background-color: rgb(63, 63, 63);padding: 5px;" />
+                            </div>
+                            <div class="col-md-8 p-2">
+                                <h5 class="" style="color: rgb(77, 206, 211);"><i class="fa fa-user"></i> @userDTO.FirstName @userDTO.LastName</h5>
+                                <p class="text-white-50">Username : @userDTO.Username <br><i class="fa fa-calendar"></i> Registration Date :
+                    @userDTO.RegisterDate.ToShortDateString()<br><i class="fa fa-envelope"></i> Email : @userDTO.Email<br><i
+                        class="fa far far fa-user-circle"></i> Role : @userDTO.Role.Title</p>
+                                <div class="row">
+                                    <div class="col-md-4 p-1">
+                                        <a class="btn btn-warning form-control"  href="UserPanel/EditProfile"><i class="fa fa-user-edit"></i> Edit Profile</a>
+                                    </div>
+                                    <div class="col-md-4 p-1">
+                                        <a class="btn btn-warning form-control" href="UserPanel/ChangePassword"><i class="fa fa-key"></i> Password</a>
+                                    </div>
+                                    <div class="col-md-4 p-1">
+                                        <button class="btn btn-danger form-control" @onclick="LogoutClick"><i class="fa fa-sign-out"></i> Logout</button>
+                                    </div>
+                    @if (isUserAdmin)
+                    {
+                        @if(role == "Admin"){
+                                             <div class="col-md-4 p-1">
+                                                   <a class="btn btn-info form-control" href="/AdminPanel/ManageWebInfo">Admin Panel</a>
+                            </div>
+                        }
+                        else
+                        {
+                                        <div class="col-md-4 p-1">
+                                                               <a class="btn btn-info form-control" href="/AdminPanel/ManageWallpapers">Admin Panel</a>
+                                        </div>
+                        }
+                    }
+                                </div>
+                            </div>
+                            <hr class="Grayhr mb-3" />
+                            <h5 style="color: rgb(77, 206, 211);"><i class="fa fa-heart"></i> Last Liked Wallpapers</h5>
+                            @foreach (var wallpaper in userDTO.LastLikedWallpapers)
+                            {
+                                <StarWall.UI.Components.WallpaperItem Wallpaper="@(new ViewWallpaperDTO() {Id=wallpaper.Id,Title=wallpaper.Title,WallpaperImages=wallpaper.WallpaperImages})" />
+                            }                   
+                            <hr class="Grayhr mb-3"/>                            
+                        </div>
+                    </div>
+}
+
+@code {
+    private UserDTO userDTO;
+    private bool isUserAdmin = false;
+    HttpClient client;
+    string profileAddress = "";
+    string role = "";
+    protected override async Task OnInitializedAsync()
+    {
+        client = ClientFactory.CreateClient("StarWallApi");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        role = await AuthStateHandler.GetUserRole();
+        isUserAdmin = await AuthStateHandler.IsAuthorizationAdminOrUploader();
+        string token = await AuthStateHandler.CheckAuthorizationNormalUser();
+        if (firstRender)
+        {
+            userDTO = await AccountAPIService.GetUserInfoForUserPanel();
+            profileAddress = $"{client.BaseAddress}UploadedFiles/ProfileImages/";
+            StateHasChanged();
+        }
+    }
+
+    private async Task LogoutClick()
+    {
+        await AuthStateHandler.Logout();
+        await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.success.ToString());
+    }
+}

@@ -1,0 +1,349 @@
+2023-03-20 17:00:00.339 +03:30 [INF] Application Starting
+2023-03-20 17:00:00.384 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-20 17:00:00.540 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-20 17:00:00.540 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-20 17:00:00.541 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-20 17:00:00.541 +03:30 [INF] Hosting environment: Development
+2023-03-20 17:00:00.541 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-20 17:00:01.832 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-20 17:00:02.021 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 189.4666ms
+2023-03-20 17:00:02.365 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-20 17:00:02.365 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-20 17:00:02.376 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 10.4037ms
+2023-03-20 17:00:02.453 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.7634ms
+2023-03-20 17:00:02.504 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-20 17:00:02.588 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.3932ms
+2023-03-20 17:01:13.841 +03:30 [INF] Application Starting
+2023-03-20 17:01:13.883 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-20 17:01:14.002 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-20 17:01:14.003 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-20 17:01:14.003 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-20 17:01:14.004 +03:30 [INF] Hosting environment: Development
+2023-03-20 17:01:14.004 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-20 17:01:14.822 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-20 17:01:14.970 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 149.1570ms
+2023-03-20 17:01:14.976 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-20 17:01:14.980 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.7074ms
+2023-03-20 17:01:15.264 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-20 17:01:15.294 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.4829ms
+2023-03-20 17:01:15.337 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-20 17:01:15.421 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.2161ms
+2023-03-20 17:01:25.535 +03:30 [INF] Request starting HTTP/2 DELETE https://localhost:7186/api/Wallpaper/DeleteAll - -
+2023-03-20 17:01:25.542 +03:30 [INF] CORS policy execution successful.
+2023-03-20 17:01:25.878 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.WallpaperController.DeleteAllWallpapers (StarWall.API)'
+2023-03-20 17:01:25.899 +03:30 [INF] Route matched with {action = "DeleteAllWallpapers", controller = "Wallpaper"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAllWallpapers() on controller StarWall.API.Controllers.WallpaperController (StarWall.API).
+2023-03-20 17:01:26.444 +03:30 [INF] Executing action method StarWall.API.Controllers.WallpaperController.DeleteAllWallpapers (StarWall.API) - Validation state: "Valid"
+2023-03-20 17:01:29.355 +03:30 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+2023-03-20 17:01:29.662 +03:30 [INF] Executed DbCommand (245ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+WHERE [w].[Id] = @__p_0
+2023-03-20 17:01:29.913 +03:30 [INF] Executed DbCommand (208ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+WHERE [w].[Id] = @__p_0
+2023-03-20 17:01:30.155 +03:30 [INF] Executed DbCommand (241ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+WHERE [w].[Id] = @__p_0
+2023-03-20 17:01:30.379 +03:30 [INF] Executed DbCommand (223ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+WHERE [w].[Id] = @__p_0
+2023-03-20 17:01:30.604 +03:30 [INF] Executed DbCommand (225ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+WHERE [w].[Id] = @__p_0
+2023-03-20 17:01:30.821 +03:30 [INF] Executed DbCommand (216ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+WHERE [w].[Id] = @__p_0
+2023-03-20 17:01:31.325 +03:30 [INF] Executed DbCommand (253ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Wallpapers]
+OUTPUT 1
+WHERE [Id] = @p0;
+DELETE FROM [Wallpapers]
+OUTPUT 1
+WHERE [Id] = @p1;
+DELETE FROM [Wallpapers]
+OUTPUT 1
+WHERE [Id] = @p2;
+DELETE FROM [Wallpapers]
+OUTPUT 1
+WHERE [Id] = @p3;
+DELETE FROM [Wallpapers]
+OUTPUT 1
+WHERE [Id] = @p4;
+DELETE FROM [Wallpapers]
+OUTPUT 1
+WHERE [Id] = @p5;
+2023-03-20 17:01:31.552 +03:30 [INF] Executed action method StarWall.API.Controllers.WallpaperController.DeleteAllWallpapers (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 5105.5196ms.
+2023-03-20 17:01:31.554 +03:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-20 17:01:31.556 +03:30 [INF] Executed action StarWall.API.Controllers.WallpaperController.DeleteAllWallpapers (StarWall.API) in 5655.4411ms
+2023-03-20 17:01:31.557 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.WallpaperController.DeleteAllWallpapers (StarWall.API)'
+2023-03-20 17:01:31.562 +03:30 [INF] Request finished HTTP/2 DELETE https://localhost:7186/api/Wallpaper/DeleteAll - - - 200 0 - 6026.6659ms
+2023-03-20 17:12:37.648 +03:30 [INF] Application Starting
+2023-03-20 17:12:37.686 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-20 17:12:37.800 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-20 17:12:37.800 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-20 17:12:37.801 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-20 17:12:37.801 +03:30 [INF] Hosting environment: Development
+2023-03-20 17:12:37.801 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-20 17:12:38.342 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-20 17:12:38.484 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 143.1613ms
+2023-03-20 17:12:38.490 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-20 17:12:38.494 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.8792ms
+2023-03-20 17:12:38.775 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-20 17:12:38.806 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.2697ms
+2023-03-20 17:12:38.845 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-20 17:12:38.933 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.5018ms
+2023-03-20 17:12:48.415 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers - -
+2023-03-20 17:12:48.464 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-20 17:12:48.475 +03:30 [INF] Route matched with {action = "GetAllWallpapers", controller = "Wallpaper"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWallpapers() on controller StarWall.API.Controllers.WallpaperController (StarWall.API).
+2023-03-20 17:12:48.670 +03:30 [INF] Executing action method StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) - Validation state: "Valid"
+2023-03-20 17:12:48.671 +03:30 [INF] GET Attempt for GetAllWallpapers
+2023-03-20 17:12:49.360 +03:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-03-20 17:12:50.132 +03:30 [ERR] An error occurred using the connection to database 'starwall_DataBase' on server '62.204.61.142'.
+2023-03-20 17:12:50.155 +03:30 [ERR] An exception occurred while iterating over the results of a query for context type 'StarWall.Persistence.DataBaseContext.ApplicationDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ ---> System.ComponentModel.Win32Exception (10054): An existing connection was forcibly closed by the remote host.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:960a9372-1d77-4c01-84f4-2b05f9306086
+Error Number:10054,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ ---> System.ComponentModel.Win32Exception (10054): An existing connection was forcibly closed by the remote host.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:960a9372-1d77-4c01-84f4-2b05f9306086
+Error Number:10054,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-03-20 17:12:50.238 +03:30 [INF] Executed action StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) in 1761.3136ms
+2023-03-20 17:12:50.239 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-20 17:12:50.241 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ ---> System.ComponentModel.Win32Exception (10054): An existing connection was forcibly closed by the remote host.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:960a9372-1d77-4c01-84f4-2b05f9306086
+Error Number:10054,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at StarWall.Persistence.Repositories.GenericRepository`1.GetAll(Expression`1 expression, List`1 includes, Func`2 orderBy) in D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\Repositories\GenericRepository.cs:line 56
+   at StarWall.API.Controllers.WallpaperController.GetAllWallpapers() in D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\Controllers\WallpaperController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-03-20 17:12:50.260 +03:30 [ERR] Something went wrong in the System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ ---> System.ComponentModel.Win32Exception (10054): An existing connection was forcibly closed by the remote host.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:960a9372-1d77-4c01-84f4-2b05f9306086
+Error Number:10054,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at StarWall.Persistence.Repositories.GenericRepository`1.GetAll(Expression`1 expression, List`1 includes, Func`2 orderBy) in D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.Persistence\Repositories\GenericRepository.cs:line 56
+   at StarWall.API.Controllers.WallpaperController.GetAllWallpapers() in D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API\Controllers\WallpaperController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2023-03-20 17:12:50.337 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers - - - 500 - Application/json 1922.4178ms
+2023-03-20 17:12:58.688 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers - -
+2023-03-20 17:12:58.691 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-20 17:12:58.691 +03:30 [INF] Route matched with {action = "GetAllWallpapers", controller = "Wallpaper"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWallpapers() on controller StarWall.API.Controllers.WallpaperController (StarWall.API).
+2023-03-20 17:12:58.702 +03:30 [INF] Executing action method StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) - Validation state: "Valid"
+2023-03-20 17:12:58.702 +03:30 [INF] GET Attempt for GetAllWallpapers
+2023-03-20 17:13:00.432 +03:30 [INF] Executed DbCommand (253ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId], [w0].[Id], [w0].[Title], [u].[Id], [w1].[Id], [w1].[FileName], [w1].[WallpaperDeviceCategoryId], [w1].[WallpaperId], [l].[Id], [l].[LikerId], [l].[WallpaperId], [u].[ActiveToken], [u].[Email], [u].[FirstName], [u].[HashedPassword], [u].[IsActive], [u].[LastName], [u].[ProfileImage], [u].[RegisterDate], [u].[RoleId], [u].[Username]
+FROM [Wallpapers] AS [w]
+INNER JOIN [WallpaperGenreCategories] AS [w0] ON [w].[WallpaperGenreCategoryId] = [w0].[Id]
+INNER JOIN [Users] AS [u] ON [w].[UploaderId] = [u].[Id]
+LEFT JOIN [WallpaperImages] AS [w1] ON [w].[Id] = [w1].[WallpaperId]
+LEFT JOIN [Likes] AS [l] ON [w].[Id] = [l].[WallpaperId]
+ORDER BY [w].[PublishDate] DESC, [w].[Id], [w0].[Id], [u].[Id], [w1].[Id]
+2023-03-20 17:13:00.465 +03:30 [INF] Executed action method StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1761.6075ms.
+2023-03-20 17:13:00.468 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[StarWall.Core.DTOs.ViewWallpaperDTO, StarWall.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-20 17:13:00.508 +03:30 [INF] Executed action StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API) in 1816.7952ms
+2023-03-20 17:13:00.508 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.WallpaperController.GetAllWallpapers (StarWall.API)'
+2023-03-20 17:13:00.509 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/api/Wallpaper/GetAllWallpapers - - - 200 4511 application/json;+charset=utf-8 1820.8959ms
+2023-03-20 17:13:51.835 +03:30 [INF] Request starting HTTP/2 DELETE https://localhost:7186/api/Admin/DeleteWallpaperById/8 - -
+2023-03-20 17:13:51.837 +03:30 [INF] CORS policy execution successful.
+2023-03-20 17:13:51.843 +03:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Uploader)
+2023-03-20 17:13:51.846 +03:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-03-20 17:13:51.847 +03:30 [INF] Request finished HTTP/2 DELETE https://localhost:7186/api/Admin/DeleteWallpaperById/8 - - - 401 0 - 12.0265ms
+2023-03-20 17:14:20.196 +03:30 [INF] Application Starting
+2023-03-20 17:14:20.241 +03:30 [INF] User profile is available. Using 'C:\Users\Sahand\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-20 17:14:20.363 +03:30 [INF] Now listening on: https://localhost:7186
+2023-03-20 17:14:20.364 +03:30 [INF] Now listening on: http://localhost:5039
+2023-03-20 17:14:20.364 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-20 17:14:20.364 +03:30 [INF] Hosting environment: Development
+2023-03-20 17:14:20.364 +03:30 [INF] Content root path: D:\MyFiles\C#\Projects\StarWall\StarWall\StarWall.API
+2023-03-20 17:14:21.124 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - -
+2023-03-20 17:14:21.266 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - - - 200 - text/html;charset=utf-8 143.2563ms
+2023-03-20 17:14:21.272 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - -
+2023-03-20 17:14:21.276 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.4594ms
+2023-03-20 17:14:21.562 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - -
+2023-03-20 17:14:21.588 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5612ms
+2023-03-20 17:14:21.632 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - -
+2023-03-20 17:14:21.729 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.0637ms
+2023-03-20 17:14:40.653 +03:30 [INF] Request starting HTTP/2 DELETE https://localhost:7186/api/Admin/DeleteWallpaperById/8 - -
+2023-03-20 17:14:40.658 +03:30 [INF] CORS policy execution successful.
+2023-03-20 17:14:40.700 +03:30 [INF] Executing endpoint 'StarWall.API.Controllers.AdminController.DeleteWallpaperById (StarWall.API)'
+2023-03-20 17:14:40.717 +03:30 [INF] Route matched with {action = "DeleteWallpaperById", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteWallpaperById(Int64) on controller StarWall.API.Controllers.AdminController (StarWall.API).
+2023-03-20 17:14:40.915 +03:30 [INF] Executing action method StarWall.API.Controllers.AdminController.DeleteWallpaperById (StarWall.API) - Validation state: "Valid"
+2023-03-20 17:14:40.917 +03:30 [INF] Delete Attempt for DeleteWallpaperById
+2023-03-20 17:14:43.437 +03:30 [INF] Executed DbCommand (266ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Description], [t].[DownloadsCount], [t].[PublishDate], [t].[Source], [t].[Title], [t].[UploaderId], [t].[UserId], [t].[ViewsCount], [t].[WallpaperGenreCategoryId], [w0].[Id], [w0].[FileName], [w0].[WallpaperDeviceCategoryId], [w0].[WallpaperId]
+FROM (
+    SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+    FROM [Wallpapers] AS [w]
+    WHERE [w].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [WallpaperImages] AS [w0] ON [t].[Id] = [w0].[WallpaperId]
+ORDER BY [t].[Id]
+2023-03-20 17:14:43.682 +03:30 [INF] Executed DbCommand (216ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DownloadsCount], [w].[PublishDate], [w].[Source], [w].[Title], [w].[UploaderId], [w].[UserId], [w].[ViewsCount], [w].[WallpaperGenreCategoryId]
+FROM [Wallpapers] AS [w]
+WHERE [w].[Id] = @__p_0
+2023-03-20 17:14:43.981 +03:30 [INF] Executed DbCommand (221ms) [Parameters=[@p0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Wallpapers]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-03-20 17:14:43.991 +03:30 [INF] Executed action method StarWall.API.Controllers.AdminController.DeleteWallpaperById (StarWall.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3073.5407ms.
+2023-03-20 17:14:43.996 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-20 17:14:44.000 +03:30 [INF] Executed action StarWall.API.Controllers.AdminController.DeleteWallpaperById (StarWall.API) in 3280.7919ms
+2023-03-20 17:14:44.001 +03:30 [INF] Executed endpoint 'StarWall.API.Controllers.AdminController.DeleteWallpaperById (StarWall.API)'
+2023-03-20 17:14:44.006 +03:30 [INF] Request finished HTTP/2 DELETE https://localhost:7186/api/Admin/DeleteWallpaperById/8 - - - 200 - text/plain;+charset=utf-8 3352.5242ms

@@ -1,0 +1,204 @@
+﻿@page "/AdminPanel/ManageWallpapers"
+@using StarWall.Domain.WallpaperEntities;
+@using X.PagedList;
+@inject AdminAPIService AdminAPIService
+@layout AdminPanelLayout
+<PageTitle>StarWall - AdminPanel</PageTitle>
+<div class="container-fluid px-3 py-2">
+    <div class="row bg-dark rounded">
+        <h5 style="color: rgb(77, 206, 211);" class="mt-2"><i class="fa far fa-image"></i> Manage Wallpapers</h5>
+        <h6 class="mt-2 text-white">Wallpapers</h6>
+        <div class="col-md-12 mb-2">
+            <a class="btn btn-success form-control" href="/AdminPanel/CreateWallpaper"><i class="fa fa-plus"></i>
+                Create</a>
+        </div>
+        <div class="col-md-4 mb-2">
+            <InputText @bind-Value="@searchFilterForWallpapers" class="form-control" type="text" placeholder="Search" />
+        </div>
+        <div class="col-md-3 mb-2">
+            <button type="submit" class="btn btn-info form-control" @onclick="FilterWallpapers"><i
+                    class="fa fa-search"></i> Search</button>
+        </div>
+        <div class="col-md-2 mb-2">
+            <button type="submit" class="btn btn-secondary form-control" @onclick="RefreshWallpapers"><i
+                    class="fa fa-refresh"></i> Refresh</button>
+        </div>
+        <div class="col-md-3 mb-2">
+            <InputSelect @bind-Value="selectedGenre" class="mb-2 form-select bg-dark text-white"
+                aria-label="Default select example">
+                <option selected>All</option>
+                @foreach (var genre in wallpaperGenreCategories)
+                {
+                    <option value="@genre.Title">@genre.Title</option>
+                }
+            </InputSelect>
+        </div>
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Uploader</th>
+                    <th scope="col">Publish Date</th>
+                    <th scope="col">Genre</th>
+                    <th scope="col">Likes</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var wallpaper in DisplayingWallpapers)
+                {
+                    <tr>
+                        <td>@wallpaper.Title</td>
+                        <td>@wallpaper.Uploader.Username</td>
+                        <td>@wallpaper.PublishDate</td>
+                        <td>@wallpaper.WallpaperGenreCategory.Title</td>
+                        <td>@wallpaper.Likes.Count</td>
+                        <td>
+                            <a class="btn btn-warning" href="/AdminPanel/EditWallpaper/@wallpaper.Id"><i
+                                class="fa fa-edit"></i></a>
+                            <a class="btn btn-danger" @onclick="() => HandleDeleteButtonClick(wallpaper.Id)"><i
+                                class="fa fa-trash"></i></a>
+                            <a class="btn btn-secondary" href="/ViewWallpaper/@wallpaper.Id"><i class="fa fa-eye"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <nav dir="ltr" style="margin-top: 10px;" aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                @if (allWallpapers.Any())
+                {
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Previous" @onclick="HandlePreviousClick"
+                        style="color: aliceblue; cursor:pointer;">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    @for (int i = 1; i <= pagesCountOfWallpapers; i++)
+                    {
+                        var pageId = i;
+                        <li class="page-item @(currentPageNumberOfWallpapers == pageId ?" active":"")"><a class="page-link" style="color: aliceblue; cursor:pointer;" @onclick="() => HandlePageButtonClick(pageId)">@pageId</a></li>
+                    }
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Next" @onclick="HandleNextClick"
+                        style="color: aliceblue; cursor:pointer;">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<StarWall.UI.Components.DeleteConfirmation IsParentProcessing="isProcessing" ConfirmationChanged="ConfirmDelete_Click"></StarWall.UI.Components.DeleteConfirmation>
+
+
+@code {
+    private bool isProcessing = false;
+
+    private List<AdminPanelWallpaperDTO> allWallpapers = new();
+    private List<AdminPanelWallpaperDTO> DisplayingWallpapers = new();
+    public int pagesCountOfWallpapers { get; set; } = 0;
+    private int currentPageNumberOfWallpapers = 1;
+    private string searchFilterForWallpapers = "";
+    private int defaultPageSize = 15;
+    private string selectedGenre = "";
+
+    private List<WallpaperGenreCategory> wallpaperGenreCategories = new();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await AuthStateHandler.CheckAuthorizationAdminOrUploader();
+        if (firstRender)
+        {
+            allWallpapers = await AdminAPIService.GetWallpapers();
+            wallpaperGenreCategories = new();
+            wallpaperGenreCategories = await AdminAPIService.GetWallpaperGenreCategories();
+            await SetDisplayingWallpapers();
+            StateHasChanged();
+        }
+    }
+
+    private async Task SetDisplayingWallpapers()
+    {
+        DisplayingWallpapers = await allWallpapers.ToPagedList(currentPageNumberOfWallpapers, defaultPageSize).ToListAsync();
+        pagesCountOfWallpapers = allWallpapers.Count / defaultPageSize;
+        if (allWallpapers.Count % defaultPageSize == 0)
+        {
+
+        }
+        else
+        {
+            pagesCountOfWallpapers++;
+        }
+    }
+
+    private async Task HandlePageButtonClick(int pageNumber)
+    {
+        currentPageNumberOfWallpapers = pageNumber;
+        await SetDisplayingWallpapers();
+    }
+
+    private async Task HandlePreviousClick()
+    {
+        if (currentPageNumberOfWallpapers > 1)
+            currentPageNumberOfWallpapers--;
+        else
+            currentPageNumberOfWallpapers = pagesCountOfWallpapers;
+        await SetDisplayingWallpapers();
+    }
+
+    private async Task HandleNextClick()
+    {
+        if (currentPageNumberOfWallpapers < pagesCountOfWallpapers)
+            currentPageNumberOfWallpapers++;
+        else
+            currentPageNumberOfWallpapers = 1;
+        await SetDisplayingWallpapers();
+    }
+
+    private async Task FilterWallpapers()
+    {
+        allWallpapers = await AdminAPIService.GetWallpapers();
+        allWallpapers = allWallpapers.Where(x => x.Title.ToLower().Contains(searchFilterForWallpapers.ToLower()) || x.Uploader.Username.ToLower().Contains(searchFilterForWallpapers.ToLower())).ToList();
+        if (!string.IsNullOrEmpty(selectedGenre))
+        {
+            allWallpapers = allWallpapers.Where(x => x.WallpaperGenreCategory.Title == selectedGenre).ToList();
+        }
+        if (selectedGenre == "All")
+        {
+            allWallpapers = await AdminAPIService.GetWallpapers();
+        }
+        await SetDisplayingWallpapers();
+    }
+
+    private async Task RefreshWallpapers()
+    {
+        searchFilterForWallpapers = "";
+        allWallpapers = await AdminAPIService.GetWallpapers();
+        await SetDisplayingWallpapers();
+        selectedGenre = "";
+        await JsRuntime.InvokeVoidAsync("ShowToastr", ToastType.success.ToString());
+    }
+
+    private long deletingWallpaperId = 0;
+    private async Task HandleDeleteButtonClick(long messageId)
+    {
+        deletingWallpaperId = messageId;
+        await JsRuntime.InvokeVoidAsync("showConfirmationModal");
+    }
+
+    public async Task ConfirmDelete_Click(bool isConfirmed)
+    {
+        isProcessing = true;
+        if (isConfirmed && deletingWallpaperId > 0)
+        {
+            await AdminAPIService.DeleteWallpaper(deletingWallpaperId);
+            allWallpapers = await AdminAPIService.GetWallpapers();
+            await SetDisplayingWallpapers();
+            await JsRuntime.InvokeVoidAsync("hideConfirmationModal");
+        }
+        isProcessing = false;
+    }
+}

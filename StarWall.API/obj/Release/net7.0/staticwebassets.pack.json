@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\ProfileImages\\ongnfsgj.3j3.png",
+      "PackagePath": "staticwebassets\\UploadedFiles\\ProfileImages\\ongnfsgj.3j3.png"
+    },
+    {
+      "Id": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\WallpaperImages\\1kqndsgi.m0n.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\WallpaperImages\\1kqndsgi.m0n.jpg"
+    },
+    {
+      "Id": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\WallpaperImages\\qu5tjkfa.qu3.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\WallpaperImages\\qu5tjkfa.qu3.jpg"
+    },
+    {
+      "Id": "D:\\MyFiles\\C#\\Projects\\StarWall\\StarWall\\StarWall.API\\wwwroot\\UploadedFiles\\WallpaperImages\\s11lwaab.aua.jpg",
+      "PackagePath": "staticwebassets\\UploadedFiles\\WallpaperImages\\s11lwaab.aua.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.StarWall.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.StarWall.API.props",
+      "PackagePath": "build\\StarWall.API.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.StarWall.API.props",
+      "PackagePath": "buildMultiTargeting\\StarWall.API.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.StarWall.API.props",
+      "PackagePath": "buildTransitive\\StarWall.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

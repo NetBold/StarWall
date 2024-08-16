@@ -1,0 +1,46 @@
+﻿<div class="modal fade" id="ConfirmationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Delete Confirmation</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+           Are you sure you want to delete?
+      </div>
+      <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="() => OnConfirmationChanged(false)"><i class="fa fa-times"></i> Cancel</button>
+                @if (isProcessStart)
+                {
+               <button type="button" class="btn btn-danger" @onclick="() => OnConfirmationChanged(true)"><i class="fa fa-spinner"></i> Delete</button>          
+                }
+                else
+                {
+               <button type="button" class="btn btn-danger" @onclick="() => OnConfirmationChanged(true)"><i class="fa fa-trash" ></i> Delete</button>
+                }
+      </div>
+    </div>
+  </div>
+</div>
+
+@code {
+    private bool isProcessStart = false;
+
+    [Parameter]
+    public bool IsParentProcessing { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        isProcessStart = IsParentProcessing;
+    }
+
+    [Parameter]
+    public EventCallback<bool> ConfirmationChanged { get; set; }
+
+    protected async Task OnConfirmationChanged(bool value)
+    {
+        if (value)
+            isProcessStart = true;
+        await ConfirmationChanged.InvokeAsync(value);
+    }
+}
